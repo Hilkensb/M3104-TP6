@@ -13,4 +13,4 @@ CREATE TABLE article (
 CREATE TABLE categorie(
 	ref INTEGER PRIMARY KEY,
 	nom TEXT
-)
+);

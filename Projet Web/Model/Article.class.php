@@ -11,7 +11,7 @@
 		private $date;
     }
 
-	function __construct(int $ref,string $nom,string $caract,float $prix,string $photo=NULL,string $categorie,string $marque,string $desc=NULL){
+	function __construct(int $ref,string $nom,string $caract,float $prix,string $photo=NULL,int $categorie,string $marque,string $desc=NULL){
 		$this->ref = $ref;
 		$this->nom = $nom;
 		$this->caracteristique = $caract;
