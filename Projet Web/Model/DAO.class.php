@@ -23,5 +23,13 @@
          }
        }
 
+		function readRefArticle() : Article{
+
+		}
+
+		function readRefCategorie() : Categorie{
+
+		}
+
 }
  ?>
