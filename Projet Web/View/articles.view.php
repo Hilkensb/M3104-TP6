@@ -20,11 +20,11 @@
   ///////////////////////////////////////////////
   // Si une categorie est définie
 	if (empty($categorie)){
-		$categorie = $articles[0]->categorie;	
+		$categorie = $articles[0]->categorie;
     }
 	$dao->getCat($categorie)->getpath();
   ?>
-	
+
   <nav>
     <!-- Bouton de retour au début de la liste -->
     <a href="?"><img src="../view/design/home.png"/></a>
