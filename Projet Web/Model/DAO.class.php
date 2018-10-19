@@ -12,10 +12,7 @@
 
      // Constructeur chargé d'ouvrir la BD
      function __construct() {
-         ///////////////////////////////////////////////////////
-         //  A COMPLETER
-         ///////////////////////////////////////////////
-         try {
+
            $this->db = new PDO($this->database);
          }
          catch (PDOException $e){
