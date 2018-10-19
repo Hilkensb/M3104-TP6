@@ -1,4 +1,3 @@
-/db/BaseDeDonnee.db
 .read create.sql
 .separator |
 .import categorie.txt categorie
