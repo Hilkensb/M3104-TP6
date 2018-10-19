@@ -1,1 +1,11 @@
-I7 4790k|00000001|Frequence : 4.0Ghz,Turbo : 4.4Ghz, Nombre de coeurs : 4 (8 threads)|400.0|00000001.png|01|Intel|Un super processeur
+00000001|I7 4790k|Frequence : 4.0Ghz,Turbo : 4.4Ghz, Nombre de coeurs : 4 (8 threads)|400.0|00000001.png|01|Intel|Un super processeur
+00000002|I7 5960x|Frequence : 3.0Ghz,Turbo : 3.5Ghz, Nombre de coeurs : 8 (16 threads)|1000.0|00000002.png|01|Intel|Un autre super processeur
+00000003|Ryzen 3 2200G|Frequence : 3.5Ghz,Turbo : 3.7Ghz,Nombre de coeurs : 4 (4 threads)|100.0|00000003.png|01|AMD|Un super processeur avec super IGP
+00000004|Ryzen Threadripper 2990WX|Frequence : 3.0Ghz,Turbo 4.2Ghz, Nombre de coeurs : 32 (64 threads)|1800.0|00000004.png|01|AMD|Un tres gros processeur tres cher
+
+10000001|GTX 970|Frequence : 1250Mhz, Coeurs : 1664, Memoire : 4Go|300.0|10000001.png|02|Nvidia|Une carte graphique populaire
+10000002|GTX 1080|Frequence : 1733Mhz, Coeurs : 2560, Memoire : 8Go|600.0|10000002.png|02|Nvidia|Une carte graphique puissante
+10000003|GTX 2080ti|Frequence : 1545Mhz, Coeurs : 4352, Memoire : 11Go|1300.0|10000003.png|02|Nvidia|La carte la plus puissante
+10000004|RX 580X|Frequence : 1340Mhz, Coeurs : 2304, Memoire : 8Go|350.0|10000004.png|02|AMD|Une carte graphique arrivant bientot
+
+20000001|
