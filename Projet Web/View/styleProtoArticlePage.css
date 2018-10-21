@@ -1,0 +1,136 @@
+body{
+  display: block;
+  width: 960px;
+  height: auto;
+  margin: auto;
+  background-color: #666666;
+}
+header{
+  display: flex;
+  position: relative;
+}
+#Headerimg1{
+  position: absolute;
+  top: 9px;
+}
+h1{
+	margin-left: 200px;
+  font-size: 1.45em;
+  color: #42B7DC;
+  bottom: 1px;
+  right: 1px;
+}
+
+#Navhaut{
+  display: flex;
+  justify-content: right;
+  background-color: #8EC549;
+  font-size: 1em;
+}
+
+#Navhaut a{
+  display: flex;
+  justify-content: right;
+  background-color: #8EC549;
+  text-decoration: none;
+  color: white;
+}
+#Navhaut li{
+    list-style-type: '|';
+    padding: 0.5em 0.6em 0.5em 0.3em;
+}
+
+#mainArticle{
+   justify-content: center;
+   background-color: GREY;
+   font-size: 1em;
+	margin-bottom: 15px;
+}
+
+#Description{
+	display: flex;
+   justify-content: center;
+   background-color: GREY;
+   font-size: 1em;
+}
+
+#prix{
+	display: flex;
+	margin-left: 50px;
+   justify-content: center;
+   color : #384f94 ;
+   font-size: 3em;
+}
+
+#Description p{
+	display: flex;
+	margin-left: 50px;
+   justify-content: center;
+   background-color: GREY;
+   font-size: 1em;
+}
+#FicheTeck p{
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+   justify-content: center;
+   background-color: GREY;
+   font-size: 1em;
+}
+#FicheTeck p{
+	display: flex;
+   justify-content: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+   background-color: GREY;
+   font-size: 1em;
+}
+
+#mainArticle img{
+	display: inline-grid;
+   justify-content: center;
+   background-color: GREY;
+   font-size: 1em;
+}
+
+#mainArticle h1{
+	display: flex;
+   justify-content: center;
+   background-color: GREY;
+}
+#Article_Recomander{
+	display: block;
+   justify-content: center;
+   background-color: GREY;
+   font-size: 1em;
+}
+
+#NavArticle_Recomander{
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+#NavArticle_Recomander li{
+    list-style-type: none;
+    padding: 0.5em 0.6em 0.5em 0.3em;
+}
+
+#NavBas{
+  display: flex;
+  justify-content: center;
+  background-color: #384f94;
+  font-size: 0.9em;
+}
+
+#NavBas a{
+	display: flex;
+   justify-content: right;
+   background-color: #384f94;
+   text-decoration: none;
+   color: white;
+}
+#NavBas li{
+    list-style-type: none;
+    padding: 0.5em 0.6em 0.5em 0.3em;
+}
