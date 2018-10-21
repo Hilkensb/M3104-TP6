@@ -8,4 +8,3 @@
 10000003|GTX 2080ti|Frequence : 1545Mhz, Coeurs : 4352, Memoire : 11Go|1300.0|10000003.png|02|Nvidia|La carte la plus puissante
 10000004|RX 580X|Frequence : 1340Mhz, Coeurs : 2304, Memoire : 8Go|350.0|10000004.png|02|AMD|Une carte graphique arrivant bientot
 
-20000001|
