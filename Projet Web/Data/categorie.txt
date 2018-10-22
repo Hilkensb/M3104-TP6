@@ -1,5 +1,5 @@
-01|Processeur
-02|Carte_Graphique
-03|RAM
-04|HDD
-05|SSD
+01|Processeur|01.png
+02|Carte_Graphique|02.png
+03|RAM|03.png
+04|HDD|04.png
+05|SSD|05.png

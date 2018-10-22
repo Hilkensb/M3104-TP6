@@ -1,10 +1,16 @@
-00000001|I7 4790k|Frequence : 4.0Ghz,Turbo : 4.4Ghz, Nombre de coeurs : 4 (8 threads)|400.0|00000001.png|01|Intel|Un super processeur
-00000002|I7 5960x|Frequence : 3.0Ghz,Turbo : 3.5Ghz, Nombre de coeurs : 8 (16 threads)|1000.0|00000002.png|01|Intel|Un autre super processeur
-00000003|Ryzen 3 2200G|Frequence : 3.5Ghz,Turbo : 3.7Ghz,Nombre de coeurs : 4 (4 threads)|100.0|00000003.png|01|AMD|Un super processeur avec super IGP
-00000004|Ryzen Threadripper 2990WX|Frequence : 3.0Ghz,Turbo 4.2Ghz, Nombre de coeurs : 32 (64 threads)|1800.0|00000004.png|01|AMD|Un tres gros processeur tres cher
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-10000001|GTX 970|Frequence : 1250Mhz, Coeurs : 1664, Memoire : 4Go|300.0|10000001.png|02|Nvidia|Une carte graphique populaire
-10000002|GTX 1080|Frequence : 1733Mhz, Coeurs : 2560, Memoire : 8Go|600.0|10000002.png|02|Nvidia|Une carte graphique puissante
-10000003|GTX 2080ti|Frequence : 1545Mhz, Coeurs : 4352, Memoire : 11Go|1300.0|10000003.png|02|Nvidia|La carte la plus puissante
-10000004|RX 580X|Frequence : 1340Mhz, Coeurs : 2304, Memoire : 8Go|350.0|10000004.png|02|AMD|Une carte graphique arrivant bientot
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10000001|I7 4790k|Frequence : 4.0Ghz,Turbo : 4.4Ghz, Nombre de coeurs : 4 (8 threads)|400.0|10000001.png|01|Intel|Un super processeur
+10000002|I7 5960x|Frequence : 3.0Ghz,Turbo : 3.5Ghz, Nombre de coeurs : 8 (16 threads)|1000.0|10000002.png|01|Intel|Un autre super processeur
+10000003|Ryzen 3 2200G|Frequence : 3.5Ghz,Turbo : 3.7Ghz,Nombre de coeurs : 4 (4 threads)|100.0|10000003.png|01|AMD|Un super processeur avec super IGP
+10000004|Ryzen Threadripper 2990WX|Frequence : 3.0Ghz,Turbo 4.2Ghz, Nombre de coeurs : 32 (64 threads)|1800.0|10000004.png|01|AMD|Un tres gros processeur tres cher
+
+20000001|GTX 970|Frequence : 1250Mhz, Coeurs : 1664, Memoire : 4Go|300.0|20000001.png|02|Nvidia|Une carte graphique populaire
+20000002|GTX 1080|Frequence : 1733Mhz, Coeurs : 2560, Memoire : 8Go|600.0|20000002.png|02|Nvidia|Une carte graphique puissante
+20000003|GTX 2080ti|Frequence : 1545Mhz, Coeurs : 4352, Memoire : 11Go|1300.0|20000003.png|02|Nvidia|La carte la plus puissante
+20000004|RX 580X|Frequence : 1340Mhz, Coeurs : 2304, Memoire : 8Go|350.0|20000004.png|02|AMD|Une carte graphique arrivant bientot
+
+30000001|HyperX Fury 16 Go (2x 8Go) DDR3 1866 MHz CL10|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Non|150.0|30000001.png|03|HyperX|De la RAM
+30000002|G.Skill 16 Go (2x 8Go) DDR4 2400 MHz CL15|Format : DDR4, Frequence : 2400Mhz, Taille totale : 16Go, ECC : Non|150.0|30000002.png|03|G.Skill|Plus de RAM
+30000003|Corsair 32 Go (4x 8Go) DDR4 3866 MHz CL18|Format : DDR4, Frequence : 3866Mhz, Taille totale : 32Go, ECC : Non|585.0|30000003.png|03|Corsair|Beaucoup de RAM
+30000004|Fujitsu 8 Go (1x 8Go) DDR4 2666 MHz ECC|Format : DDR4, Frequence : 2666Mhz, Taille totale : 8Go, ECC : Oui|200.0|30000004.png|03|Fujitsu|De la ram ECC
+
+40000001|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface Serial ATA
