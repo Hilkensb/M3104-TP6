@@ -57,5 +57,29 @@
 
 		}
 
+		// Acces à la référence qui suit la référence $ref dans l'ordre des références
+        function next(int $ref) : int {
+            ///////////////////////////////////////////////////////
+            //  A COMPLETER
+            ///////////////////////////////////////////////
+            $req = "SELECT * FROM article WHERE ref>$ref ORDER BY ref ASC LIMIT 1 ";
+
+      			$res =$this->db->query($req);
+            $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
+            return $resul[0]->ref;
+        }
+
+        // Acces aux n articles qui précèdent de $n la référence $ref dans l'ordre des références
+        function prevN(int $ref,int $n): array {
+            ///////////////////////////////////////////////////////
+            //  A COMPLETER
+            ///////////////////////////////////////////////
+            $req = "SELECT * FROM article WHERE ref<$ref ORDER BY ref DESC LIMIT $n ";
+
+      			$res =$this->db->query($req);
+            $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
+            return array_reverse($resul);
+        }
+
 }
  ?>
