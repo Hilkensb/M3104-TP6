@@ -47,13 +47,18 @@ h1{
   font-size: 1em;
 }
 #NavArticleDiv{
-	width: 130px;
+	width: 140px;
 	color: white;
 	background-color: #666666;
 }
 #NavArticle li{
     list-style-type: none;
     padding: 0.5em 0.6em 0.5em 0.3em;
+}
+#NavArticle img{
+    list-style-type: none;
+	 margin-left: 5px;
+	 margin-top: 5px;
 }
 #NavArticle p{
     list-style-type: none;
@@ -63,7 +68,9 @@ h1{
 	display: flex;
    list-style-type: none;
 	margin-top: 5px;
-	justify-content: flex-end;
+	margin-right: 5px;
+	justify-content: right;
+
 }
 
 #NavBas{
