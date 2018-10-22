@@ -13,4 +13,12 @@
 30000003|Corsair 32 Go (4x 8Go) DDR4 3866 MHz CL18|Format : DDR4, Frequence : 3866Mhz, Taille totale : 32Go, ECC : Non|585.0|30000003.png|03|Corsair|Beaucoup de RAM
 30000004|Fujitsu 8 Go (1x 8Go) DDR4 2666 MHz ECC|Format : DDR4, Frequence : 2666Mhz, Taille totale : 8Go, ECC : Oui|200.0|30000004.png|03|Fujitsu|De la ram ECC
 
-40000001|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface Serial ATA
+40000001|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|67.0|40000001.png|04|Seagate|Bon rapport qualité/prix !
+40000002|Toshiba L200 1To|Capacite : 1To, Taille : 2.5", Vitesse : 5400 RPM, Interface : Serial ATA|60.0|40000002.png|04|Toshiba|Petit disque.
+40000003|WD Black 6To|Capacite : 6To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|303.0|40000003.png|04|Western Digital|Gros disque !
+40000004|Lenovo Thinkserver 1To|Capacite : 1To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|170.0|40000004.png|04|Lenovo|Disque dur de serveur.
+
+50000001|Kingston A1000 M.2 PCIe NVMe 240Go|Capacite : 240Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|75.0|50000001.png|05|Kingston|SSD M.2 NVMe 240Go
+50000002|Corsair Force MP300 960Go|Capacite : 960Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|350.0|50000002.png|05|Corsair|SSD M.2 NVMe 960Go
+50000003|Samsung SSD 960 EVO 1To mSATA|Capacite : 1To, Interface : mSATA, Type de memoire : TLC, NVMe : Non|75.0|50000003.png|05|Samsung|SSD mSATA 1To
+50000004|SanDisk SSD PLUS SLC 120Go|Capacite : 120Go, Interface : SATA, Type de memoire : SLC, NVMe : Non|32.0|50000004.png|05|SanDisk|Petit SSD SLC
