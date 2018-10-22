@@ -3,7 +3,7 @@
     // Partie principale
 
     // Inclusion du modèle
-    include_once("../model/DAO.class.php");
+    include_once("../Model/DAO.class.php");
 
 
 
@@ -16,5 +16,5 @@
 
 
     // Charge la vue
-    include("../view/MainPage.view.php")
+    include("../View/MainPage.view.php")
     ?>
