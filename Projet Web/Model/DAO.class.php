@@ -1,4 +1,6 @@
  <?php
+ require_once("../model/Categorie.class.php");
+    require_once("../model/Article.class.php");
  // Creation de l'unique objet DAO
  $dao = new DAO();
 
@@ -34,13 +36,21 @@
 			return $resul;
 		}
 		function getNCateg(int $ref,int $n) : array {
-			 ///////////////////////////////////////////////////////
-			 //  A COMPLETER
-			 ///////////////////////////////////////////////////////
+
 			 $req = "SELECT * FROM categorie WHERE ref=$ref ";
 
 			 $res =$this->db->query($req);
 			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'categorie');
+			 return $resul;
+
+
+		}
+		function getNArticle(int $ref,int $n) : array {
+
+			 $req = "SELECT * FROM article WHERE ref=$ref ";
+
+			 $res =$this->db->query($req);
+			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
 			 return $resul;
 
 
