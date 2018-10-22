@@ -10,7 +10,7 @@
 		private $description;
 		private $date;
     }
-
+/*
 	function __construct(int $ref,string $nom,string $caract,float $prix,string $photo=NULL,int $categorie,string $marque,string $desc=NULL){
 		$this->ref = $ref;
 		$this->nom = $nom;
@@ -21,7 +21,7 @@
 		$this->marque = $marque;
 		$this->description = $desc;
    }
-
+*/
    function __get(string $property){
       return $this->$property;
    }
