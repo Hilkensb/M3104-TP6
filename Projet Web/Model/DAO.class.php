@@ -38,7 +38,7 @@
 		}
 		function getNCateg(int $ref,int $n) : array {
 
-			 $req = "SELECT * FROM categorie WHERE ref=$ref ";
+			 $req = "SELECT * FROM categorie WHERE  ref>=$ref  LIMIT $n  ";
 
 			 $res =$this->db->query($req);
 			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'categorie');
@@ -48,7 +48,7 @@
 		}
 		function getNArticle(int $ref,int $n) : array {
 
-			 $req = "SELECT * FROM article WHERE ref=$ref ";
+			 $req = "SELECT * FROM article WHERE ref>=$ref  LIMIT $n  ";
 
 			 $res =$this->db->query($req);
 			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');

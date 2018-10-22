@@ -3,11 +3,11 @@
   <head>
 	  <meta charset="utf-8">
 	  <title>RatKistan</title>
-	  <link rel="stylesheet" href="../styleProtoMainPage.css">
+	  <link rel="stylesheet" href="../View/design/styleProtoMainPage.css">
   </head>
   <body>
 	  <header>
-		  <img id="Headerimg1" src="Img/Logo.jpg"/ width="100" height="100">
+		  <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100">
 		  <h1>"IL Ne Meur Jamais"</h1>
 	  </header>
 	  <nav>
@@ -23,14 +23,13 @@
 
 			 <ul id="NavArticle">
 				 <?php for($i = 0;$i<5;$i++){ ?>
-				  <li> <img src="Img/<?= $categorie[$i]->id ?>"/ width= "130" height="130">
-				 <?php } ?>
+				  <li> <img src="../View/Img/<?= $categorie[$i]->photo ?>"/ width= "130" height="130">
+				  <?php } ?>
 			 </ul>
 		  </nav>
 		</div>
 	  <div>
-		  <!-- Actualité Img -->
-		  <img src="Img/LogoProto0000.jpg"/ width= 100% height="300">
+		  <img src="../View/Img/LogoProto0000.jpg"/ width= 100% height="300">
 		</div>
 
 	  <div>
