@@ -35,28 +35,35 @@
 	  <div>
 		  <nav>
 			  <ul id="NavArticle">
- 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2> </div>
+ 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
  				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
  				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
  				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
  				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
  			 </ul>
 			 <ul id="NavArticle">
+<<<<<<< HEAD
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2> </div>
+=======
+>>>>>>> eca386a09dda2d14d138d262506b2d701b76186a
+				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
+				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
+				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
+				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
+<<<<<<< HEAD
+=======
+				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
+>>>>>>> eca386a09dda2d14d138d262506b2d701b76186a
+			 </ul>
+			 <ul id="NavArticle">
+				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 			 </ul>
 			 <ul id="NavArticle">
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2> </div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-			 </ul>
-			 <ul id="NavArticle">
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2> </div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
