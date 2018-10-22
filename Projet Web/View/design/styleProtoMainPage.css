@@ -39,15 +39,31 @@ h1{
     list-style-type: '|';
     padding: 0.5em 0.6em 0.5em 0.3em;
 }
+
 #NavArticle{
   display: flex;
   justify-content: center;
   background-color: GREY;
   font-size: 1em;
 }
+#NavArticleDiv{
+	width: 130px;
+	color: white;
+	background-color: #666666;
+}
 #NavArticle li{
     list-style-type: none;
     padding: 0.5em 0.6em 0.5em 0.3em;
+}
+#NavArticle p{
+    list-style-type: none;
+	 margin: 5px;
+}
+#NavArticle h2{
+	display: flex;
+   list-style-type: none;
+	margin-top: 5px;
+	justify-content: flex-end;
 }
 
 #NavBas{
