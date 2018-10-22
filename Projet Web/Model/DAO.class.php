@@ -1,4 +1,7 @@
  <?php
+     require_once("../Model/Article.class.php");
+ require_once("../Model/Categorie.class.php");
+
  // Creation de l'unique objet DAO
  $dao = new DAO();
 
@@ -8,11 +11,11 @@
      // L'objet local PDO de la base de donnée
      private $db;
      // Le type, le chemin et le nom de la base de donnée
-     private $database = 'sqlite:../data/db/data.db';
+     private $database = 'sqlite:../Data/db/data.db';
 
      // Constructeur chargé d'ouvrir la BD
      function __construct() {
-
+		  try {
            $this->db = new PDO($this->database);
          }
          catch (PDOException $e){
@@ -34,13 +37,21 @@
 			return $resul;
 		}
 		function getNCateg(int $ref,int $n) : array {
-			 ///////////////////////////////////////////////////////
-			 //  A COMPLETER
-			 ///////////////////////////////////////////////////////
-			 $req = "SELECT * FROM categorie WHERE ref=$ref ";
+
+			 $req = "SELECT * FROM categorie WHERE  ref>=$ref  LIMIT $n  ";
 
 			 $res =$this->db->query($req);
 			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'categorie');
+			 return $resul;
+
+
+		}
+		function getNArticle(int $ref,int $n) : array {
+
+			 $req = "SELECT * FROM article WHERE ref>=$ref  LIMIT $n  ";
+
+			 $res =$this->db->query($req);
+			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
 			 return $resul;
 
 
