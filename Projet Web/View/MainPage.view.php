@@ -20,14 +20,11 @@
 
 	  <div>
 		  <nav>
-			 <?php for($i = 0;$i<5;$i++){ ?>
-			 <ul id="NavArticle">
 
-				  <li> <img src="Img/<?= $categorie[$i]->"/ width= "130" height="130">
-				  <li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
-				  <li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
-				  <li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
-				  <li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
+			 <ul id="NavArticle">
+				 <?php for($i = 0;$i<5;$i++){ ?>
+				  <li> <img src="Img/<?= $categorie[$i]->id ?>"/ width= "130" height="130">
+				  <?php } ?>
 			 </ul>
 		  </nav>
 		</div>
