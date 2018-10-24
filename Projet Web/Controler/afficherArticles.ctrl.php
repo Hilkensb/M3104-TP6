@@ -13,6 +13,7 @@
 	 $nbCategorie = 05;
 	 $nextPage = $articleDeDepart+$nbArticlePage;
 
+
 	if (!empty($_GET['refcat'])){
 		$categorie = $dao->getNCateg($_GET['refcat'],$nbCategorie);
 	}else {
@@ -23,7 +24,7 @@
 	}else {
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	}
-
+	echo gettype($categorie);
     // Charge la vue
     include("../View/MainPage.view.php");
     ?>

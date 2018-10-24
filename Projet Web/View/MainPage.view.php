@@ -22,7 +22,7 @@
 		  <nav>
 
 			 <ul id="NavArticle">
-				 <?php for($i = 0;$i<5;$i++){ ?>
+				 <?php for($i = 0;$i<$nbCategorie;$i++){ ?>
 				  <li> <img src="../View/Img/<?= $categorie[$i]->photo ?>"/ width= "130" height="130">
 				  <?php } ?>
 			 </ul>
@@ -38,7 +38,7 @@
 			  <ul id="NavArticle">
 				  <?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
 
- 				  <li> <div id="NavArticleDiv"><img src="../View/Img/<?= $article[$i]->photo ?>"/ width= "130" height="130"> <p><?= $article[$i]->nom ?></p> <h2><?= $article[$i]->prix ?></h2></div>
+ 				  <li> <div id="NavArticleDiv"><img src="../View/Img/<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130"> <p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2></div>
  				  <?php } ?>
  			 </ul>
 		 	<?php } ?>
@@ -49,8 +49,8 @@
 	  <footer>
 		  <nav>
 			 <ul id="NavBas">
-			   <li><a href="#">1</a></li>
-			   <li><a href="#">2</a></li>
+			   <li><a href="?refcat=01">1</a></li>
+			   <li><a href="?refcat=">2</a></li>
 			   <li><a href="#">3</a></li>
 			   <li><a href="#">4</a></li>
 			   <li><a href="#">5</a></li>
