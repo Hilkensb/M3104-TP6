@@ -9,7 +9,7 @@
       private $marque;
 		private $description;
 		private $date;
-    }
+
 /*
 	function __construct(int $ref,string $nom,string $caract,float $prix,string $photo=NULL,int $categorie,string $marque,string $desc=NULL){
 		$this->ref = $ref;
@@ -25,4 +25,5 @@
    function __get(string $property){
       return $this->$property;
    }
+}
 ?>
