@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<<?php
+		if (!empty($_GET["aId"])){
+			$articleID = $_GET["aId"];
+		}else {
+			$articleID = 1;
+		}
+?>
 <html lang="fr" dir="ltr">
 	<head>
 		<meta charset="utf-8">
@@ -21,7 +27,7 @@
 		<div id=mainArticle>
 			<div id = Description>
 				<div>
-		        <img src="Img/LogoProto0000.jpg"/ width= 300 height="300">
+		        <img src="../View/Img/<?= $article[$articleID]->photo ?>"/ width= "300" height="300">
 	      	</div>
 				<div class="">
 					<h1>Carte Graphique GTXRagondIncrevable[P]</h1>
