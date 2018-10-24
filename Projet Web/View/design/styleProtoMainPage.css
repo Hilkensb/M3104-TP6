@@ -74,6 +74,15 @@ h1{
 
 }
 
+#previous {
+	position: fixed;
+	right: 150px;
+}
+#next{
+	position: fixed;
+	left: 200px;
+}
+
 #NavBas{
   display: flex;
   justify-content: center;
