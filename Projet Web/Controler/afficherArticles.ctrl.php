@@ -37,6 +37,6 @@
 		}
 	}
 
-    // Charge la vue
-    include("../View/MainPage.view.php");
-    ?>
+   // Charge la vue
+   include("../View/MainPage.view.php");
+   ?>
