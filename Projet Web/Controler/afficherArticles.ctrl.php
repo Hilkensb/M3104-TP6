@@ -9,9 +9,9 @@
 	 $nbColonneArtcilePage = 5;
 
 	 $nbArticlePage = $nbColonneArtcilePage*$nbLigneArticlePage;
-	 $articleDeDepart = 01;
-	 $nbCategorie = 05;
-	 $nextPage = $articleDeDepart+$nbArticlePage;
+	 $articleDeDepart = 1;
+	 $nbCategorie = 5;
+
 
 
 	if (!empty($_GET['refcat'])){
@@ -24,7 +24,27 @@
 	}else {
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	}
+<<<<<<< HEAD
 	echo gettype($categorie);
     // Charge la vue
     include("../View/MainPage.view.php");
     ?>
+=======
+
+	function next(){
+		$nP = $articleDeDepart+$nbArticlePage;
+		return $nP;
+	}
+	function previous(){
+		if($articleDeDepart-$nbArticlePage > 0){
+			$pP = $articleDeDepart-$nbArticlePage;
+			return $pP;
+		}else {
+			return $articleDeDepart;
+		}
+	}
+
+   // Charge la vue
+   include("../View/MainPage.view.php");
+   ?>
+>>>>>>> 86b99f4f75bb9b6ea6e850c501ed7f34b604b7a5
