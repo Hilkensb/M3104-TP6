@@ -34,36 +34,15 @@
 
 	  <div>
 		  <nav>
-			  <?php for($i = 0;$i<$nbLigneArticlePage;i++) ?>
+			  <?php for($i = 0;$i<$nbLigneArticlePage;$i++){ ?>
 			  <ul id="NavArticle">
-				  <?php for($i = 0;$i<5;$i++){ ?>
+				  <?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
 
  				  <li> <div id="NavArticleDiv"><img src="../View/Img/<?= $article[$i]->photo ?>"/ width= "130" height="130"> <p><?= $article[$i]->nom ?></p> <h2><?= $article[$i]->prix ?></h2></div>
  				  <?php } ?>
  			 </ul>
-		 <?php } ?>
-			 <ul id="NavArticle">
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
+		 	<?php } ?>
 
-			 </ul>
-			 <ul id="NavArticle">
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-			 </ul>
-			 <ul id="NavArticle">
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-			 </ul>
 		  </nav>
 		</div>
 
