@@ -1,20 +1,20 @@
-
 <?php
-    // Partie principale
-	 $nbArticlePage = 15;
-	 $articleDeDepart = 1;
-	 $nbCategorie = 5;
-	 $nextPage = $articleDeDepart+$nbArticlePage;
+
 
     // Inclusion du modèle
     include_once("../Model/DAO.class.php");
 
-
+	 // Partie principale
+	 $nbLigneArticlePage = 4;
+	 $nbArticlePage = 5*$nbLigneArticlePage;
+	 $articleDeDepart = 01;
+	 $nbCategorie = 05;
+	 $nextPage = $articleDeDepart+$nbArticlePage;
 
 	if (!empty($_GET['refcat'])){
 		$categorie = $dao->getNCateg($_GET['refcat'],$nbCategorie);
 	}else {
-		$categorie = $dao->getNCateg(1,$nbCategorie);
+		$categorie = $dao->getNCateg(01,$nbCategorie);
 	}
 	if(!empty($_GET['refartc'])){
 	  $article = $dao->getNArticle($_GET['refartc'],$nbArticlePage);
@@ -23,5 +23,5 @@
 	}
 
     // Charge la vue
-    include("../View/MainPage.view.php")
+    include("../View/MainPage.view.php");
     ?>

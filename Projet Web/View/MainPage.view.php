@@ -34,6 +34,7 @@
 
 	  <div>
 		  <nav>
+			  <?php for($i = 0;$i<) ?>
 			  <ul id="NavArticle">
 				  <?php for($i = 0;$i<5;$i++){ ?>
 
@@ -46,10 +47,7 @@
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 3b8a2478695c1313ca6798a400910c0bea507f03
 			 </ul>
 			 <ul id="NavArticle">
 				  <li> <div id="NavArticleDiv"><img src="Img/LogoProto0000.jpg"/ width= "130" height="130"> <p>Lorem ipsum dolor sit amet</p> <h2>1515€</h2></div>
