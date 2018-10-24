@@ -6,7 +6,9 @@
 
 	 // Partie principale
 	 $nbLigneArticlePage = 4;
-	 $nbArticlePage = 5*$nbLigneArticlePage;
+	 $nbColonneArtcilePage = 5;
+
+	 $nbArticlePage = $nbColonneArtcilePage*$nbLigneArticlePage;
 	 $articleDeDepart = 01;
 	 $nbCategorie = 05;
 	 $nextPage = $articleDeDepart+$nbArticlePage;
