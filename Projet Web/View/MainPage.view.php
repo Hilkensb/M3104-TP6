@@ -49,9 +49,7 @@
 	  <footer>
 		  <nav>
 			 <ul id="NavBas">
-				 <li><a href="?refartc=<?= end($prev)->ref ?>">&lt;  </a></li>
-    <!-- Bouton pour passer à la page suivante -->
-    <li><a href="?refartc=<?= $nextRef?>">></a></li>
+				 
 			   <li><a href="?refartc=<?= $previousPage ?>"><</a></li>
 			   <li><?= $pageActuelle  ?></li>
 			   <li><a href="?refartc=<?= $nextPage ?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
