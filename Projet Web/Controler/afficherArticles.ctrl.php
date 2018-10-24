@@ -24,21 +24,16 @@
 	}else {
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	}
-<<<<<<< HEAD
-	echo gettype($categorie);
-    // Charge la vue
-    include("../View/MainPage.view.php");
-    ?>
-=======
 
-	function next(){
-		$nP = $articleDeDepart+$nbArticlePage;
-		return $nP;
+
+
+	
+	function nextPage(): int{
+			return  $articleDeDepart+$nbArticlePage;
 	}
-	function previous(){
+	function previousPage():int{
 		if($articleDeDepart-$nbArticlePage > 0){
-			$pP = $articleDeDepart-$nbArticlePage;
-			return $pP;
+			return  $articleDeDepart-$nbArticlePage;
 		}else {
 			return $articleDeDepart;
 		}
@@ -47,4 +42,3 @@
    // Charge la vue
    include("../View/MainPage.view.php");
    ?>
->>>>>>> 86b99f4f75bb9b6ea6e850c501ed7f34b604b7a5
