@@ -9,9 +9,9 @@
 	 $nbColonneArtcilePage = 5;
 
 	 $nbArticlePage = $nbColonneArtcilePage*$nbLigneArticlePage;
-	 $articleDeDepart = 01;
-	 $nbCategorie = 05;
-	 $nextPage = $articleDeDepart+$nbArticlePage;
+	 $articleDeDepart = 1;
+	 $nbCategorie = 5;
+
 
 	if (!empty($_GET['refcat'])){
 		$categorie = $dao->getNCateg($_GET['refcat'],$nbCategorie);
@@ -22,6 +22,19 @@
 	  $article = $dao->getNArticle($_GET['refartc'],$nbArticlePage);
 	}else {
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
+	}
+
+	function next(){
+		$nP = $articleDeDepart+$nbArticlePage;
+		return $nP;
+	}
+	function previous(){
+		if($articleDeDepart-$nbArticlePage > 0){
+			$pP = $articleDeDepart-$nbArticlePage;
+			return $pP;
+		}else {
+			return $articleDeDepart;
+		}
 	}
 
     // Charge la vue
