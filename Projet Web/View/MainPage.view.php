@@ -49,12 +49,12 @@
 	  <footer>
 		  <nav>
 			 <ul id="NavBas">
-			   <li><a href="?refartc=01">1</a></li>
-			   <li><a href="?refartc=<?php $articleDeDepart+($nbArticlePage*2) ?>">2</a></li>
-			   <li><a href="?refartc=<?php $articleDeDepart+($nbArticlePage*3)?>">3</a></li>
-			   <li><a href="?refartc=<?php $articleDeDepart+($nbArticlePage*4)?>">4</a></li>
-			   <li><a href="?refartc=<?php $articleDeDepart+($nbArticlePage*5)?>">5</a></li>
-			   <li><a href="?refartc=<?php $articleDeDepart+($nbArticlePage*6)?>">6</a></li>
+				 <li><a href="?refartc=<?= end($prev)->ref ?>">&lt;  </a></li>
+    <!-- Bouton pour passer à la page suivante -->
+    <li><a href="?refartc=<?= $nextRef ?>">></a></li>
+			   <li><a href="?refartc=<?= $previousPage ?>"><</a></li>
+			   <li><?= $pageActuelle  ?></li>
+			   <li><a href="?refartc=<?= $nextPage ?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
 			 </ul>
 		  </nav>
 	  </footer>

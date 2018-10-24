@@ -62,11 +62,11 @@
             ///////////////////////////////////////////////////////
             //  A COMPLETER
             ///////////////////////////////////////////////
-            $req = "SELECT * FROM article WHERE ref>$ref ORDER BY ref ASC LIMIT 1 ";
+            $req = "SELECT * FROM article WHERE ref>=$ref ORDER BY ref ASC LIMIT 1 ";
 
       			$res =$this->db->query($req);
-            $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
-            return $resul[0]->ref;
+            $resul =$res->fetchall(PDO::FETCH_CLASS,'article');
+				return $resul[0]->ref;
         }
 
         // Acces aux n articles qui précèdent de $n la référence $ref dans l'ordre des références
