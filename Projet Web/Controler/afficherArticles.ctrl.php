@@ -33,13 +33,13 @@ include_once("../Controler/variable.ctrl.php");
 	  $refarticle=$_GET['refartc'];
 	  $dispo = "";
 
-	}else if (!empty($_GET['dispo'])) {
+	}else if (!empty($_GET['dispo'])&&empty($_GET['refartc'])) {
   		$article =$dao->getArticleDispo();
 		$dispo = "oui";
         $refarticle=$_GET['refartc'];
 
 	}else if (!empty($_GET['dispo'])&&!empty($_GET['refartc'])) {
-  		$article =$dao->getArticleDispo();
+  		$article =$dao->getArticleDispoRefArticle($_GET['refartc']);
 		$dispo = "oui";
         $refarticle=$_GET['refartc'];
 
@@ -54,7 +54,7 @@ include_once("../Controler/variable.ctrl.php");
 		if ((count($article)-1)%4==0){
 			$nbLigneArticlePage = $nbLigneArticlePage;
 		}else {
-		$nbLigneArticlePage =(count($article)%4);//round($nbArticlePage/($nbArticlePage-count($article)));
+		$nbLigneArticlePage =floor(count($article)/4);//round($nbArticlePage/($nbArticlePage-count($article)));
 		}
 		if ((count($article)-1)%5==0){
 			$nbColonneArtcilePage = $nbColonneArtcilePage;

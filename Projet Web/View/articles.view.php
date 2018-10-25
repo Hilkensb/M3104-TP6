@@ -13,9 +13,8 @@
 		</header>
 		<nav>
 		  <ul id="Navhaut">
-			 <li><a href="#">Nouveau Articles</a></li>
-			 <li><a href="#">Lorem</a></li>
-			 <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+			 <li></li>
+			
 		  </ul>
 		</nav>
 
@@ -25,13 +24,14 @@
 		        <img src="../View/Img/<?= $aPhoto?>"/ width= "300" height="300">
 	      	</div>
 				<div class="">
-					<h1><?= $aNom?></h1>
-					<p><?= $aDescription?></p>
-					<h1 id= prix><?= $aPrix?>€</h1>
+					<h1>Nom du produit : <?= $aNom?></h1>
+					<p>Description du produit : <?= $aDescription?></p>
+					<h1 id= prix>Prix : <?= $aPrix?>€</h1>
 				</div>
+         <p> Disponible dans nos magasin : <?= $aDisponibilite ?> </p>
 			</div>
 			<div id = FicheTeck>
-				<p><?= $aCaracteristique?></p>
+				<p>Information technique : <br> <?= $aCaracteristique?></p>
 			</div>
 		</div>
 
@@ -50,18 +50,7 @@
 			</div>
       </div>
 
-		<footer>
-			<nav>
-			  <ul id="NavBas">
-				 <li><a href="#">1</a></li>
-				 <li><a href="#">2</a></li>
-				 <li><a href="#">3</a></li>
-				 <li><a href="#">4</a></li>
-				 <li><a href="#">5</a></li>
-				 <li><a href="#">6</a></li>
-			  </ul>
-			</nav>
-		</footer>
+
 
 	</body>
 </html>

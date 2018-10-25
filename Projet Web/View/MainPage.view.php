@@ -12,9 +12,10 @@
 	  </header>
 	  <nav>
 		 <ul id="Navhaut">
-			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">Disponibilité</a></li>
+			
 			<li><a href="#">hj</a></li>
 			<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">Disponibilité</a></li>
 		 </ul>
 	  </nav>
 
@@ -38,7 +39,7 @@
 			  <ul id="NavArticle">
 				  <?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
 
- 				  <li> <div id="NavArticleDiv"><a href="../Controler/pageArticle.ctrl.php?photo=<?= $article[$j+($i*$nbColonneArtcilePage)]->photo?>&nom=<?= $article[$j+($i*$nbColonneArtcilePage)]->nom?>&caracteristique=<?= $article[$j+($i*$nbColonneArtcilePage)]->caracteristique?>&description=<?= $article[$j+($i*$nbColonneArtcilePage)]->description?>&prix=<?= $article[$j+($i*$nbColonneArtcilePage)]->prix?> ">
+ 				  <li> <div id="NavArticleDiv"><a href="../Controler/pageArticle.ctrl.php?photo=<?= $article[$j+($i*$nbColonneArtcilePage)]->photo?>&disponibilite=<?= $article[$j+($i*$nbColonneArtcilePage)]->disponibilite ?>&nom=<?= $article[$j+($i*$nbColonneArtcilePage)]->nom?>&caracteristique=<?= $article[$j+($i*$nbColonneArtcilePage)]->caracteristique?>&description=<?= $article[$j+($i*$nbColonneArtcilePage)]->description?>&prix=<?= $article[$j+($i*$nbColonneArtcilePage)]->prix?> ">
 				  <img src="../View/Img/<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130"> 
 				  <p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2></a></div>
  				  <?php } ?>

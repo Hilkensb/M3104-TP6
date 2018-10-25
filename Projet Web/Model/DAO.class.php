@@ -120,5 +120,15 @@
 
 
   		}
+		function getArticleDispoRefArticle(int $ref) : array {
+			
+  			 $req = "SELECT * FROM article WHERE disponibilite='Oui' and ref>=$ref  ";
+
+  			 $res =$this->db->query($req);
+  			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
+  			 return $resul;
+
+
+  		}
 }
  ?>
