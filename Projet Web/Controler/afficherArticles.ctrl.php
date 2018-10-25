@@ -55,7 +55,7 @@ include_once("../Controler/variable.ctrl.php");
 		if ((count($article)-1)%5==0){
 			$nbColonneArtcilePage = $nbColonneArtcilePage;
 		}else {
-			$nbColonneArtcilePage =count($article)%5;
+			$nbColonneArtcilePage =(count($article)%5)+1;
 		}
 	//	 =round($nbArticlePage/$nbLigneArticlePage);
 	}else {

@@ -1,9 +1,30 @@
-<<?php
-		if (!empty($_GET["aId"])){
-			$articleID = $_GET["aId"];
+v<<?php
+		if (!empty($_GET["photo"])){
+			$aPhoto = $_GET["photo"];
 		}else {
-			$articleID = 1;
+			$aPhoto = 1;
 		}
+		if (!empty($_GET["nom"])){
+			$aNom = $_GET["nom"];
+		}else {
+			$aNom = 1;
+		}
+		if (!empty($_GET["caracteristique"])){
+			$aCaracteristique = $_GET["caracteristique"];
+		}else {
+			$aCaracteristique = 1;
+		}
+		if (!empty($_GET["description"])){
+			$aDescription = $_GET["description"];
+		}else {
+			$aDescription = 1;
+		}
+		if (!empty($_GET["prix"])){
+			$aPrix = $_GET["prix"];
+		}else {
+			$aPrix = 1;
+		}
+
 ?>
 <html lang="fr" dir="ltr">
 	<head>
@@ -27,18 +48,16 @@
 		<div id=mainArticle>
 			<div id = Description>
 				<div>
-		        <img src="../View/Img/<?= $article[$articleID]->photo ?>"/ width= "300" height="300">
+		        <img src="../View/Img/<?= $aPhoto?>"/ width= "300" height="300">
 	      	</div>
 				<div class="">
-					<h1>Carte Graphique GTXRagondIncrevable[P]</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<h1 id= prix>649.99€</h1>
+					<h1><?= $aNom?></h1>
+					<p><?= $aDescription?></p>
+					<h1 id= prix><?= $aPrix?>€</h1>
 				</div>
 			</div>
 			<div id = FicheTeck>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p><?= $aCaracteristique?></p>
 			</div>
 		</div>
 

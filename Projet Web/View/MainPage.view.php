@@ -8,11 +8,11 @@
   <body>
 	  <header>
 		 <a  href="?refartc=<?= $articleDeDepart ?>&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
-		  <h1>"Vente de matÃ©riel informatique"</h1>
+		  <h1>"Vente de matériel informatique"</h1>
 	  </header>
 	  <nav>
 		 <ul id="Navhaut">
-			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">DisponibilitÃ©</a></li>
+			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">Disponibilité</a></li>
 			<li><a href="#">hj</a></li>
 			<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
 		 </ul>
