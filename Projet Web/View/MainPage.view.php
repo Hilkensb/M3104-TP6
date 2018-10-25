@@ -51,7 +51,7 @@
 			 <ul id="NavBas">
 
 			   <li><a href="?refartc=<?= $previousPage ?>&refcat=<?= $refcategorie?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
-			   <li><?= $pageActuelle=(int)($articleDeDepart/$nbArticlePage)  ?></li>
+				<li><?= $pageActuelle= (int)(($_GET(['refartc'])+($nbArticlePage/2))/$nbArticlePage) ?></li>
 			   <li><a href="?refartc=<?= $nextPage ?>&refcat=<?= $refcategorie?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
 			 </ul>
 		  </nav>

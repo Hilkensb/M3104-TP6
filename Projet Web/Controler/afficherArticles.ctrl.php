@@ -37,7 +37,7 @@ include_once("../Controler/variable.ctrl.php");
   }else if (!empty($_GET['dispo'])) {
   		$article =$dao-
 } else{
-	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
+$article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	  $refarticle=$articleDeDepart;
 	}
 
@@ -48,8 +48,7 @@ include_once("../Controler/variable.ctrl.php");
 
 	}else{
 		$nextPage=  $articleDeDepart+$nbArticlePage;
-		$articleDeDepart = $nextpage;
-	}
+		$articleDeDepart = $nextpage;	}
 	echo($nextPage);
 
 //Page précédente
@@ -59,7 +58,6 @@ include_once("../Controler/variable.ctrl.php");
 		}else {
 			$previousPage=  $articleDeDepart;
 			$articleDeDepart = $previousPage;
-
 		}
 
    // Charge la vue

@@ -1,30 +1,30 @@
-00000001|I7 4790k|Frequence : 4.0Ghz,Turbo : 4.4Ghz, Nombre de coeurs : 4 (8 threads)|400.0|10000001.jpg|01|Intel|Un super processeur
-00000002|I7 5960x|Frequence : 3.0Ghz,Turbo : 3.5Ghz, Nombre de coeurs : 8 (16 threads)|1000.0|10000002.jpg|01|Intel|Un autre super processeur
-00000003|Ryzen 3 2200G|Frequence : 3.5Ghz,Turbo : 3.7Ghz,Nombre de coeurs : 4 (4 threads)|100.0|10000003.jpg|01|AMD|Un super processeur avec super IGP
-00000004|Ryzen Threadripper 2990WX|Frequence : 3.0Ghz,Turbo 4.2Ghz, Nombre de coeurs : 32 (64 threads)|1800.0|10000004.jpg|01|AMD|Un tres gros processeur tres cher
-00000005|I9 9900k|Frequence : 3.6Ghz, Turbo : 5.0Ghz, Nombre de coeurs : 8 (16 threads)|700.0|10000005.jpg|01|Intel|Un packaging du futur !
-00000006|Ryzen 7 2700x|Frequence : 3.7Ghz, Turbo : 4.3Ghz, Nombre de coeurs : 8 (16 threads)|354.0|10000006.jpg|01|AMD|Comme un 9900k mais moins cher
-00000007|GTX 970|Frequence : 1250Mhz, Coeurs : 1664, Memoire : 4Go|300.0|20000001.jpg|02|Nvidia|Une carte graphique populaire
-00000008|GTX 1080|Frequence : 1733Mhz, Coeurs : 2560, Memoire : 8Go|600.0|20000002.jpg|02|Nvidia|Une carte graphique puissante
-00000009|GTX 2080ti|Frequence : 1545Mhz, Coeurs : 4352, Memoire : 11Go|1300.0|20000003.jpg|02|Nvidia|La carte la plus puissante
-00000010|RX 580X|Frequence : 1340Mhz, Coeurs : 2304, Memoire : 8Go|350.0|20000004.jpg|02|AMD|Une carte graphique arrivant bientot
-00000011|Radeon R9 390x|Frequence : 1100mhz, Coeurs : 2816, Memoire : 8Go|180.0|20000005.jpg|02|AMD|Une carte graphique parce que il faut remplir le site
-00000012|Radeon R9 370x|Frequence : 925Mgz, Coeurs : 1280, Memoire : 2Go|50.0|20000006.png|02|AMD|Une petite carte graphique toute mignonne
-00000013|HyperX Fury 16 Go (2x 8Go) DDR3 1866 MHz CL10|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Non|150.0|30000001.jpg|03|HyperX|De la RAM
-00000014|G.Skill 16 Go (2x 8Go) DDR4 2400 MHz CL15|Format : DDR4, Frequence : 2400Mhz, Taille totale : 16Go, ECC : Non|150.0|30000002.jpg|03|G.Skill|Plus de RAM
-00000015|Corsair 32 Go (4x 8Go) DDR4 3866 MHz CL18|Format : DDR4, Frequence : 3866Mhz, Taille totale : 32Go, ECC : Non|585.0|30000003.jpg|03|Corsair|Beaucoup de RAM
-00000016|Fujitsu 8 Go (1x 8Go) DDR4 2666 MHz ECC|Format : DDR4, Frequence : 2666Mhz, Taille totale : 8Go, ECC : Oui|200.0|30000004.jpg|03|Fujitsu|De la ram ECC
-00000017|Crucial 4 Go (1x4Go) DDR3 1600 MHz CL11 ECC Registered|Format : DDR3, Frequence : 1600Mhz, Taille totale : 4Go, ECC : Oui|65.0|30000005.jpg|03|Crucial|Plus de ram ECC
-00000018|Kingston 16 Go (2x8Go) DDR3 1600MHz CL11 ECC Registered|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Oui|250.0|30000006.jpg|03|Kingston|Encore plus de ram ECC
-00000019|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|67.0|40000001.jpg|04|Seagate|Bon rapport qualité/prix !
-00000020|Toshiba L200 1To|Capacite : 1To, Taille : 2.5", Vitesse : 5400 RPM, Interface : Serial ATA|60.0|40000002.jpg|04|Toshiba|Petit disque.
-00000021|WD Black 6To|Capacite : 6To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|303.0|40000003.jpg|04|Western Digital|Gros disque !
-00000022|Lenovo Thinkserver 1To|Capacite : 1To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|170.0|40000004.jpg|04|Lenovo|Disque dur de serveur.
-00000023|Fujitsu 1To 3.5"|Capacite : 1To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|270.0|40000005.jpg|04|Fujitsu|Autre disque dur serveur.
-00000024|Seagate IronWolf Pro 14To|Capacite : 14To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|675.0|40000006.jpg|04|Seagate|14To ça fait beaucoup !
-00000025|Kingston A1000 M.2 PCIe NVMe 240Go|Capacite : 240Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|75.0|50000001.jpg|05|Kingston|SSD M.2 NVMe 240Go
-00000026|Corsair Force MP300 960Go|Capacite : 960Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|350.0|50000002.jpg|05|Corsair|SSD M.2 NVMe 960Go
-00000027|Samsung SSD 860 EVO 1To mSATA|Capacite : 1To, Interface : mSATA, Type de memoire : TLC, NVMe : Non|75.0|50000003.jpg|05|Samsung|SSD mSATA 1To
-00000028|SanDisk SSD PLUS SLC 120Go|Capacite : 120Go, Interface : SATA, Type de memoire : SLC, NVMe : Non|32.0|50000004.jpg|05|SanDisk|Petit SSD SLC
-00000029|Kingston DCP1000 3.2To|Capacite : 3.2To, Interface : PCIe, Type de memoire : MLC, NVMe : Oui|3200.0|50000005.jpg|05|Kingston|La ça commence a faire beaucoup...
-00000030|HyperX Fury RGB SSD 960Go|Capacite : 960Go, Interface : SATA, Type de momoire : TLC, NVMe : Non|250.0|50000006.jpg|05|HyperX|On a même des SSD qui brillent !
+00000001|I7 4790k|Frequence : 4.0Ghz,Turbo : 4.4Ghz, Nombre de coeurs : 4 (8 threads)|400.0|10000001.jpg|01|Intel|Un super processeur|ADRESSE|Oui
+00000002|I7 5960x|Frequence : 3.0Ghz,Turbo : 3.5Ghz, Nombre de coeurs : 8 (16 threads)|1000.0|10000002.jpg|01|Intel|Un autre super processeur|ADRESSE|Oui
+00000003|Ryzen 3 2200G|Frequence : 3.5Ghz,Turbo : 3.7Ghz,Nombre de coeurs : 4 (4 threads)|100.0|10000003.jpg|01|AMD|Un super processeur avec super IGP|ADRESSE|Oui
+00000004|Ryzen Threadripper 2990WX|Frequence : 3.0Ghz,Turbo 4.2Ghz, Nombre de coeurs : 32 (64 threads)|1800.0|10000004.jpg|01|AMD|Un tres gros processeur tres cher|ADRESSE|Non
+00000005|I9 9900k|Frequence : 3.6Ghz, Turbo : 5.0Ghz, Nombre de coeurs : 8 (16 threads)|700.0|10000005.jpg|01|Intel|Un packaging du futur !|ADRESSE|Oui
+00000006|Ryzen 7 2700x|Frequence : 3.7Ghz, Turbo : 4.3Ghz, Nombre de coeurs : 8 (16 threads)|354.0|10000006.jpg|01|AMD|Comme un 9900k mais moins cher|ADRESSE|Oui
+00000007|GTX 970|Frequence : 1250Mhz, Coeurs : 1664, Memoire : 4Go|300.0|20000001.jpg|02|Nvidia|Une carte graphique populaire|ADRESSE|Non
+00000008|GTX 1080|Frequence : 1733Mhz, Coeurs : 2560, Memoire : 8Go|600.0|20000002.jpg|02|Nvidia|Une carte graphique puissante|ADRESSE|Oui
+00000009|GTX 2080ti|Frequence : 1545Mhz, Coeurs : 4352, Memoire : 11Go|1300.0|20000003.jpg|02|Nvidia|La carte la plus puissante|ADRESSE|Oui
+00000010|RX 580X|Frequence : 1340Mhz, Coeurs : 2304, Memoire : 8Go|350.0|20000004.jpg|02|AMD|Une carte graphique arrivant bientot|ADRESSE|Oui
+00000011|Radeon R9 390x|Frequence : 1100mhz, Coeurs : 2816, Memoire : 8Go|180.0|20000005.jpg|02|AMD|Une carte graphique parce que il faut remplir le site|ADRESSE|Oui
+00000012|Radeon R9 370x|Frequence : 925Mgz, Coeurs : 1280, Memoire : 2Go|50.0|20000006.png|02|AMD|Une petite carte graphique toute mignonne|ADRESSE|Oui
+00000013|HyperX Fury 16 Go (2x 8Go) DDR3 1866 MHz CL10|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Non|150.0|30000001.jpg|03|HyperX|De la RAM|ADRESSE|Non
+00000014|G.Skill 16 Go (2x 8Go) DDR4 2400 MHz CL15|Format : DDR4, Frequence : 2400Mhz, Taille totale : 16Go, ECC : Non|150.0|30000002.jpg|03|G.Skill|Plus de RAM|ADRESSE|Oui
+00000015|Corsair 32 Go (4x 8Go) DDR4 3866 MHz CL18|Format : DDR4, Frequence : 3866Mhz, Taille totale : 32Go, ECC : Non|585.0|30000003.jpg|03|Corsair|Beaucoup de RAM|ADRESSE|Oui
+00000016|Fujitsu 8 Go (1x 8Go) DDR4 2666 MHz ECC|Format : DDR4, Frequence : 2666Mhz, Taille totale : 8Go, ECC : Oui|200.0|30000004.jpg|03|Fujitsu|De la ram ECC|ADRESSE|Oui
+00000017|Crucial 4 Go (1x4Go) DDR3 1600 MHz CL11 ECC Registered|Format : DDR3, Frequence : 1600Mhz, Taille totale : 4Go, ECC : Oui|65.0|30000005.jpg|03|Crucial|Plus de ram ECC|ADRESSE|Oui
+00000018|Kingston 16 Go (2x8Go) DDR3 1600MHz CL11 ECC Registered|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Oui|250.0|30000006.jpg|03|Kingston|Encore plus de ram ECC|ADRESSE|Oui
+00000019|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|67.0|40000001.jpg|04|Seagate|Bon rapport qualité/prix !|ADRESSE|Non
+00000020|Toshiba L200 1To|Capacite : 1To, Taille : 2.5", Vitesse : 5400 RPM, Interface : Serial ATA|60.0|40000002.jpg|04|Toshiba|Petit disque.|ADRESSE|Oui
+00000021|WD Black 6To|Capacite : 6To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|303.0|40000003.jpg|04|Western Digital|Gros disque !|ADRESSE|Oui
+00000022|Lenovo Thinkserver 1To|Capacite : 1To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|170.0|40000004.jpg|04|Lenovo|Disque dur de serveur.|ADRESSE|Oui
+00000023|Fujitsu 1To 3.5"|Capacite : 1To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|270.0|40000005.jpg|04|Fujitsu|Autre disque dur serveur.|ADRESSE|Non
+00000024|Seagate IronWolf Pro 14To|Capacite : 14To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|675.0|40000006.jpg|04|Seagate|14To ça fait beaucoup !|ADRESSE|Oui
+00000025|Kingston A1000 M.2 PCIe NVMe 240Go|Capacite : 240Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|75.0|50000001.jpg|05|Kingston|SSD M.2 NVMe 240Go|ADRESSE|Oui
+00000026|Corsair Force MP300 960Go|Capacite : 960Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|350.0|50000002.jpg|05|Corsair|SSD M.2 NVMe 960Go|ADRESSE|Oui
+00000027|Samsung SSD 860 EVO 1To mSATA|Capacite : 1To, Interface : mSATA, Type de memoire : TLC, NVMe : Non|75.0|50000003.jpg|05|Samsung|SSD mSATA 1To|ADRESSE|Oui
+00000028|SanDisk SSD PLUS SLC 120Go|Capacite : 120Go, Interface : SATA, Type de memoire : SLC, NVMe : Non|32.0|50000004.jpg|05|SanDisk|Petit SSD SLC|ADRESSE|Oui
+00000029|Kingston DCP1000 3.2To|Capacite : 3.2To, Interface : PCIe, Type de memoire : MLC, NVMe : Oui|3200.0|50000005.jpg|05|Kingston|La ça commence a faire beaucoup...|ADRESSE|Non
+00000030|HyperX Fury RGB SSD 960Go|Capacite : 960Go, Interface : SATA, Type de momoire : TLC, NVMe : Non|250.0|50000006.jpg|05|HyperX|On a même des SSD qui brillent !|ADRESSE|Oui
