@@ -51,11 +51,15 @@ include_once("../Controler/variable.ctrl.php");
 	var_dump($article);
 	echo "count".count($article)."couf";
 	if (count($article)<$nbArticlePage){
-		$nbLigneArticlePage =round($nbArticlePage/($nbArticlePage-count($article)));
+		if ((count($article)-1)%4==0){
+			$nbLigneArticlePage = $nbLigneArticlePage;
+		}else {
+		$nbLigneArticlePage =(count($article)%4);//round($nbArticlePage/($nbArticlePage-count($article)));
+		}
 		if ((count($article)-1)%5==0){
 			$nbColonneArtcilePage = $nbColonneArtcilePage;
 		}else {
-			$nbColonneArtcilePage =(count($article)%5)+1;
+			$nbColonneArtcilePage =(count($article)%5);
 		}
 	//	 =round($nbArticlePage/$nbLigneArticlePage);
 	}else {

@@ -1,31 +1,4 @@
-v<<?php
-		if (!empty($_GET["photo"])){
-			$aPhoto = $_GET["photo"];
-		}else {
-			$aPhoto = 1;
-		}
-		if (!empty($_GET["nom"])){
-			$aNom = $_GET["nom"];
-		}else {
-			$aNom = 1;
-		}
-		if (!empty($_GET["caracteristique"])){
-			$aCaracteristique = $_GET["caracteristique"];
-		}else {
-			$aCaracteristique = 1;
-		}
-		if (!empty($_GET["description"])){
-			$aDescription = $_GET["description"];
-		}else {
-			$aDescription = 1;
-		}
-		if (!empty($_GET["prix"])){
-			$aPrix = $_GET["prix"];
-		}else {
-			$aPrix = 1;
-		}
-
-?>
+v<
 <html lang="fr" dir="ltr">
 	<head>
 		<meta charset="utf-8">
