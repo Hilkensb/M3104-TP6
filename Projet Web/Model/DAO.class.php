@@ -26,7 +26,7 @@
 		function readRefArticle(int $ref) : Article{
 			$req = "SELECT * FROM article WHERE ref=$ref";
 			$res = $this->db->query($req);
-			$resul = $res-fetchall(PDO::FETCH_CLASS,'article');
+			$resul = $res->fetchall(PDO::FETCH_CLASS,'article');
 			return $resul;
 		}
 

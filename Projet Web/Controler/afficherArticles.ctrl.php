@@ -13,6 +13,7 @@ include_once("../Controler/variable.ctrl.php");
 	echo $nbCat;
 	echo $nbCategorie;
  $diff =$nbCat-$nbCategorie;
+  
 	if (!empty($_GET['refcat'])){
 		$categorie = $dao->getNCateg(01/*$_GET['refcat']*/,$nbCategorie);
 		$refcategorie=$_GET['refcat'];
@@ -27,17 +28,20 @@ include_once("../Controler/variable.ctrl.php");
 	  $dispo = "";
 
 	  var_dump($article);
-  }else if(!empty($_GET['refartc'])&& !empty($_GET['refcat'])&& empty($_GET['dispo'])){
+	}else if(!empty($_GET['refartc'])&& !empty($_GET['refcat'])&& empty($_GET['dispo'])){
 	  $article =$dao->getArticleCate($_GET['refcat']);
 	  var_dump($article);
 	  $refarticle=$_GET['refartc'];
 	  $dispo = "";
 
-  }else if (!empty($_GET['dispo'])) {
+	}else if (!empty($_GET['dispo'])) {
   		$article =$dao->getArticleDispo();
 		var_dump($article);
-} else{
-$article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
+		$dispo = "oui";
+        $refarticle=$_GET['refartc'];
+
+	} else{
+	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	  $refarticle=$articleDeDepart;
 	  $dispo = "";
 	}

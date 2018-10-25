@@ -7,12 +7,12 @@
   </head>
   <body>
 	  <header>
-		 <a  href="?refartc=<?= $articleDeDepart ?>"> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
+		 <a  href="?refartc=<?= $articleDeDepart ?>&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
 		  <h1>"Vente de matériel informatique"</h1>
 	  </header>
 	  <nav>
 		 <ul id="Navhaut">
-			<li><a href="?dispo=oui">Disponibilité</a></li>
+			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">Disponibilité</a></li>
 			<li><a href="#">hj</a></li>
 			<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
 		 </ul>
@@ -50,9 +50,9 @@
 		  <nav>
 			 <ul id="NavBas">
 
-			   <li><a href="?refartc=<?= $previousPage ?>&refcat=<?= $refcategorie?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
+			   <li><a href="?refartc=<?= $previousPage ?>&refcat=<?= $refcategorie?>&dispo=<?= $dispo ?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
 				<li><?=  $pageActuelle// $pageActuelle= (int)(($_GET(['refartc'])+($nbArticlePage/2))/$nbArticlePage) ?></li>
-			   <li><a href="?refartc=<?= $nextPage ?>&refcat=<?= $refcategorie?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
+			   <li><a href="?refartc=<?= $nextPage ?>&refcat=<?= $refcategorie?>&dispo=<?= $dispo ?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
 			 </ul>
 		  </nav>
 	  </footer>
