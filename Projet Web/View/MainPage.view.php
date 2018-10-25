@@ -50,15 +50,9 @@
 		  <nav>
 			 <ul id="NavBas">
 
-<<<<<<< HEAD
-			   <li><a href="?refartc=<?= $previousPage ?>"><</a></li>
-			   <li><?= $pageActuelle  ?></li>
-			   <li><a href="?refartc=<?= $nextPage ?>">></a></li>
-=======
 			   <li><a href="?refartc=<?= $previousPage ?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
 			   <li><?= $pageActuelle=(int)($articleDeDepart/$nbArticlePage)  ?></li>
 			   <li><a href="?refartc=<?= $nextPage ?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
->>>>>>> bad7c93bdf294f494b73a2688adec1e241e52fbb
 			 </ul>
 		  </nav>
 	  </footer>
