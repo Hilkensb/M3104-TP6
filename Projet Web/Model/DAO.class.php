@@ -46,6 +46,16 @@
 
 
 		}
+		function getArticleCate(int $categChoisit) : array {
+
+			 $req = "SELECT * FROM article WHERE categorie=$categChoisit ";
+
+			 $res =$this->db->query($req);
+			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
+			 return $resul;
+
+
+		}
 		function getNArticle(int $ref,int $n) : array {
 
 			 $req = "SELECT * FROM article WHERE ref>=$ref  LIMIT $n  ";

@@ -14,10 +14,15 @@ include_once("../Controler/variable.ctrl.php");
 		$categorie = $dao->getNCateg($_GET['refcat'],$nbCategorie);
 	}else {
 		$categorie = $dao->getNCateg(01,$nbCategorie);
+		var_dump($categorie);
 	}
-	if(!empty($_GET['refartc'])){
+	if(!empty($_GET['refartc'])&& empty($_GET['refcat']) ){
 	  $article = $dao->getNArticle($_GET['refartc'],$nbArticlePage);
 	  var_dump($article);
+  }else if(!empty($_GET['refartc'])&& !empty($_GET['refcat'])){
+	  $article =$dao->getArticleCate($_GET['refcat']);
+	  var_dump($article);
+
 	}else {
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	}

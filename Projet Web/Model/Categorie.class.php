@@ -1,6 +1,6 @@
 <?php
   class Categorie {
-    private $id;
+    private $ref;
     private $nom;
 	 private $photo;
 

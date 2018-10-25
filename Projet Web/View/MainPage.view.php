@@ -23,7 +23,7 @@
 
 			 <ul id="NavArticle">
 				 <?php for($i = 0;$i<$nbCategorie;$i++){ ?>
-				  <li> <img src="../View/Img/<?= $categorie[$i]->photo ?>"/ width= "130" height="130">
+				  <li><a  href="?refcat=<?= $categorie[$i]->ref ?>"> <img src="../View/Img/<?= $categorie[$i]->photo ?>"/ width= "130" height="130"></a> </li>
 				  <?php } ?>
 			 </ul>
 		  </nav>
@@ -50,9 +50,9 @@
 		  <nav>
 			 <ul id="NavBas">
 
-			   <li><a href="?refartc=<?= $previousPage ?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
+			   <li><a href="?refartc=<?= $previousPage ?>"><</a></li>
 			   <li><?= $pageActuelle  ?></li>
-			   <li><a href="?refartc=<?= $nextPage ?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
+			   <li><a href="?refartc=<?= $nextPage ?>">></a></li>
 			 </ul>
 		  </nav>
 	  </footer>
