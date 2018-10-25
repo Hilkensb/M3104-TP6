@@ -1,6 +1,6 @@
-<<?php
-		if (!empty($_GET["aId"])){
-			$articleID = $_GET["aId"];
+v<<?php
+		if (!empty($_GET["refartc"])){
+			$articleID = $_GET["refartc"];
 		}else {
 			$articleID = 1;
 		}
