@@ -6,27 +6,41 @@ include_once("../Controler/variable.ctrl.php");
 
 	 // Partie principale
 
-	 echo $_GET['refartc'];
-	 echo !empty($_GET['refartc']);
-
+	 $nbArtc = $dao->nbArticle();
+	 $nbCat = $dao->nbCategorie();
+	 $artcileDispo = $dao->getArticleDispo();
+	// echo !empty($_GET['refartc']);
+	echo $nbCat;
+	echo $nbCategorie;
+ $diff =$nbCat-$nbCategorie;
+ echo $diff;
+ echo pow($diff,2);
+	 echo "bruh".sqrt(pow($diff,2)) ." fgd";
 	if (!empty($_GET['refcat'])){
-		$categorie = $dao->getNCateg($_GET['refcat'],$nbCategorie);
+		$categorie = $dao->getNCateg(01/*$_GET['refcat']*/,$nbCategorie);
+		$refcategorie=$_GET['refcat'];
 	}else {
 		$categorie = $dao->getNCateg(01,$nbCategorie);
 		var_dump($categorie);
+		$refcategorie= "";
 	}
-	if(!empty($_GET['refartc'])&& empty($_GET['refcat']) ){
+	if(!empty($_GET['refartc'])&& empty($_GET['refcat'])&& empty($_GET['dispo']) ){
 	  $article = $dao->getNArticle($_GET['refartc'],$nbArticlePage);
+	  $refarticle=$_GET['refartc'];
+
 	  var_dump($article);
-  }else if(!empty($_GET['refartc'])&& !empty($_GET['refcat'])){
+  }else if(!empty($_GET['refartc'])&& !empty($_GET['refcat'])&& empty($_GET['dispo'])){
 	  $article =$dao->getArticleCate($_GET['refcat']);
 	  var_dump($article);
+	  $refarticle=$_GET['refartc'];
 
-	}else {
+  }else if (!empty($_GET['dispo'])) {
+  		$article =$dao-
+} else{
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
+	  $refarticle=$articleDeDepart;
 	}
 
-   $nbArtc = $dao->nbArticle();
 
 //Page suivante
 	if($nextPage+$nbArticlePage> $nbArtc){
@@ -34,6 +48,7 @@ include_once("../Controler/variable.ctrl.php");
 
 	}else{
 		$nextPage=  $articleDeDepart+$nbArticlePage;
+		$articleDeDepart = $nextpage;
 	}
 	echo($nextPage);
 
@@ -43,6 +58,8 @@ include_once("../Controler/variable.ctrl.php");
 			$pageActuelle=$pageActuelle--;
 		}else {
 			$previousPage=  $articleDeDepart;
+			$articleDeDepart = $previousPage;
+
 		}
 
    // Charge la vue

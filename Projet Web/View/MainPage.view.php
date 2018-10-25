@@ -2,18 +2,18 @@
 <html lang="fr" dir="ltr">
   <head>
 	  <meta charset="utf-8">
-	  <title>RatKistan</title>
+	  <title>InfoVente</title>
 	  <link rel="stylesheet" href="../View/design/styleProtoMainPage.css">
   </head>
   <body>
 	  <header>
-		  <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100">
-		  <h1>"IL Ne Meur Jamais"</h1>
+		 <a  href="?refartc=<?= $articleDeDepart ?>"> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
+		  <h1>"Vente de matériel informatique"</h1>
 	  </header>
 	  <nav>
 		 <ul id="Navhaut">
-			<li><a href="#">Nouveau Articles</a></li>
-			<li><a href="#">Lorem</a></li>
+			<li><a href="?dispo=oui">Disponibilité</a></li>
+			<li><a href="#">hj</a></li>
 			<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
 		 </ul>
 	  </nav>
@@ -23,7 +23,7 @@
 
 			 <ul id="NavArticle">
 				 <?php for($i = 0;$i<$nbCategorie;$i++){ ?>
-				  <li><a  href="?refcat=<?= $categorie[$i]->ref ?>"> <img src="../View/Img/<?= $categorie[$i]->photo ?>"/ width= "130" height="130"></a> </li>
+				  <li><a  href="?refcat=<?= $categorie[$i]->ref ?>&refartc=<?= $refarticle ?>"> <img src="../View/Img/<?= $categorie[$i]->photo ?>"/ width= "130" height="130"></a> </li>
 				  <?php } ?>
 			 </ul>
 		  </nav>
@@ -50,9 +50,9 @@
 		  <nav>
 			 <ul id="NavBas">
 
-			   <li><a href="?refartc=<?= $previousPage ?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
+			   <li><a href="?refartc=<?= $previousPage ?>&refcat=<?= $refcategorie?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
 			   <li><?= $pageActuelle=(int)($articleDeDepart/$nbArticlePage)  ?></li>
-			   <li><a href="?refartc=<?= $nextPage ?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
+			   <li><a href="?refartc=<?= $nextPage ?>&refcat=<?= $refcategorie?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
 			 </ul>
 		  </nav>
 	  </footer>

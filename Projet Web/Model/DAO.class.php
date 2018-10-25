@@ -100,6 +100,25 @@
 			   $resul =$res ->fetchall(PDO::FETCH_ASSOC)[0];
 			   return (int) $resul['nbarticle'];
 		  }
+		  function nbCategorie(): int {
+			   ///////////////////////////////////////////////////////
+			   //  A COMPLETER
+			   ///////////////////////////////////////////////
+			   $req = "SELECT count(ref) as nbcategorie FROM categorie";
 
+				  $res =$this->db->query($req);
+			   $resul =$res ->fetchall(PDO::FETCH_ASSOC)[0];
+			   return (int) $resul['nbcategorie'];
+		  }
+		  function getArticleDispo() : array {
+
+  			 $req = "SELECT * FROM article WHERE dispo='oui' ";
+
+  			 $res =$this->db->query($req);
+  			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
+  			 return $resul;
+
+
+  		}
 }
  ?>
