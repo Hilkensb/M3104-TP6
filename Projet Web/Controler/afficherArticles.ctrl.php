@@ -22,23 +22,23 @@ include_once("../Controler/variable.ctrl.php");
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	}
 
-echo end($article)->ref;
-	$nextRef = $dao->next(end($article)->ref);
+   $nbArtc = $dao->nbArticle();
 
-	 $prev = $dao->prevN($article[0]->ref,20);
+	if($nextPage+$nbArticlePage> $nbArtc){
+		$nextPage =$nbArtc -($nbArticlePage-1);
+
+	}else{
+		$nextPage=  $articleDeDepart+$nbArticlePage;
+	}
+	echo($nextPage);
 
 
-	$nextPage=  $articleDeDepart+$nbArticlePage;
-
-
-	 if($articleDeDepart-$nbArticlePage > 0){
+	 if($previousPage-$nbArticlePage > 0){
 			$previousPage=  $articleDeDepart-$nbArticlePage;
-			$pageActuelle=$pageActuelle-1;
+			//$pageActuelle=$pageActuelle--;
 		}else {
 			$previousPage=  $articleDeDepart;
-			$pageActuelle =1;
 		}
-
 
    // Charge la vue
    include("../View/MainPage.view.php");

@@ -80,6 +80,16 @@
             $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
             return array_reverse($resul);
         }
+		  function nbArticle(): int {
+			   ///////////////////////////////////////////////////////
+			   //  A COMPLETER
+			   ///////////////////////////////////////////////
+			   $req = "SELECT count(ref) as nbarticle FROM article";
+
+				  $res =$this->db->query($req);
+			   $resul =$res ->fetchall(PDO::FETCH_ASSOC)[0];
+			   return (int) $resul['nbarticle'];
+		  }
 
 }
  ?>

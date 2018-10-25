@@ -6,4 +6,7 @@
 	 $articleDeDepart = 1;
 	 $nbCategorie = 5;
 	 $pageActuelle=1;
+	 $nextPage = $articleDeDepart+$nbArticlePage;
+	 $previousPage = $articleDeDepart-$nbArticlePage;
+
 ?>
