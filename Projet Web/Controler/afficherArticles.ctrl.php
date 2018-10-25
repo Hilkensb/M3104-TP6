@@ -40,7 +40,13 @@ include_once("../Controler/variable.ctrl.php");
 		$dispo = "oui";
         $refarticle=$_GET['refartc'];
 
-	} else{
+	}else if (!empty($_GET['dispo'])&&!empty($_GET['refartc'])) {
+  		$article =$dao->getArticleDispo();
+		var_dump($article);
+		$dispo = "oui";
+        $refarticle=$_GET['refartc'];
+
+	}  else{
 	  $article = $dao->getNArticle($articleDeDepart,$nbArticlePage);
 	  $refarticle=$articleDeDepart;
 	  $dispo = "";
