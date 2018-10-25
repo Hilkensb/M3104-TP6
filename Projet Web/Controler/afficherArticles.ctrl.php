@@ -30,19 +30,16 @@ include_once("../Controler/variable.ctrl.php");
 	  var_dump($article);
 	}else if(!empty($_GET['refartc'])&& !empty($_GET['refcat'])&& empty($_GET['dispo'])){
 	  $article =$dao->getArticleCate($_GET['refcat']);
-	  var_dump($article);
 	  $refarticle=$_GET['refartc'];
 	  $dispo = "";
 
 	}else if (!empty($_GET['dispo'])) {
   		$article =$dao->getArticleDispo();
-		var_dump($article);
 		$dispo = "oui";
         $refarticle=$_GET['refartc'];
 
 	}else if (!empty($_GET['dispo'])&&!empty($_GET['refartc'])) {
   		$article =$dao->getArticleDispo();
-		var_dump($article);
 		$dispo = "oui";
         $refarticle=$_GET['refartc'];
 
@@ -51,6 +48,22 @@ include_once("../Controler/variable.ctrl.php");
 	  $refarticle=$articleDeDepart;
 	  $dispo = "";
 	}
+	var_dump($article);
+	echo "count".count($article)."couf";
+	if (count($article)<$nbArticlePage){
+		$nbLigneArticlePage =round($nbArticlePage/($nbArticlePage-count($article)));
+		if ((count($article)-1)%5==0){
+			$nbColonneArtcilePage = $nbColonneArtcilePage;
+		}else {
+			$nbColonneArtcilePage =count($article)%5;
+		}
+	//	 =round($nbArticlePage/$nbLigneArticlePage);
+	}else {
+		$nbLigneArticlePage = 4;
+		$nbColonneArtcilePage = 5;
+	}	
+	echo $nbLigneArticlePage."ligne";
+		echo $nbColonneArtcilePage."colonne";
 
 
 //Page suivante
@@ -74,3 +87,5 @@ include_once("../Controler/variable.ctrl.php");
    // Charge la vue
    include("../View/MainPage.view.php");
    ?>
+nbColonneArtcilePage
+nbColonneArtcilePage

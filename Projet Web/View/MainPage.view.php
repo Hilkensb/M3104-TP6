@@ -38,7 +38,7 @@
 			  <ul id="NavArticle">
 				  <?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
 
- 				  <li> <div id="NavArticleDiv"><a href="?refcat=<?= $article[$j+($i*$nbColonneArtcilePage)]->ref?> "><img src="../View/Img/<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130"> <p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2></a></div>
+ 				  <li> <div id="NavArticleDiv"><a href="?refArtc=<?= $article[$j+($i*$nbColonneArtcilePage)]->ref?> "><img src="../View/Img/<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130"> <p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2></a></div>
  				  <?php } ?>
  			 </ul>
 		 	<?php } ?>
