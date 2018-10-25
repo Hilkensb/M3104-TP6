@@ -1,13 +1,14 @@
-v<
+
 <html lang="fr" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<title>RatKistan Produit</title>
-		<link rel="stylesheet" href="design/styleProtoArticlePage.css">
+		<link rel="stylesheet" href="../View/design/styleProtoArticlePage.css">
 	</head>
 	<body>
 		<header>
-			<img id="Headerimg1" src="Img/Logo.jpg"/ width="100" height="100">
+   <a  href="../Controler/afficherArticles.ctrl.php?refartc=<?= $articleDeDepart ?>&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
+
 		  	<h1>"IL Est Increvable"</h1>
 		</header>
 		<nav>
@@ -18,8 +19,8 @@ v<
 		  </ul>
 		</nav>
 
-		<div id=mainArticle>
-			<div id = Description>
+		<div id="mainArticle">
+			<div id = "Description">
 				<div>
 		        <img src="../View/Img/<?= $aPhoto?>"/ width= "300" height="300">
 	      	</div>
@@ -39,11 +40,11 @@ v<
 			<div class="">
 				<nav>
 				  <ul id="NavArticle_Recomander">
-						<li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
-						<li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
-						<li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
-						<li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
-						<li> <img src="Img/LogoProto0000.jpg"/ width= "130" height="130">
+						<li> <img src="../View/Img/LogoProto0000.jpg"/ width= "130" height="130">
+						<li> <img src="../View/Img/LogoProto0000.jpg"/ width= "130" height="130">
+						<li> <img src="../View/Img/LogoProto0000.jpg"/ width= "130" height="130">
+						<li> <img src="../View/Img/LogoProto0000.jpg"/ width= "130" height="130">
+						<li> <img src="../View/Img/LogoProto0000.jpg"/ width= "130" height="130">
 				  </ul>
 				</nav>
 			</div>
