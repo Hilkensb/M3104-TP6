@@ -9,7 +9,7 @@
       private $marque;
 		private $description;
 		private $pointdevente;
-		private $disponibilité;
+		private $disponibilite;
 
    function __get(string $property){
       return $this->$property;

@@ -7,8 +7,8 @@ CREATE TABLE article (
 	categorie INTEGER,
 	marque TEXT,
 	description TEXT,
-	pointdevente TEXT;
-	disponibilite TEXT;
+	pointdevente TEXT,
+	disponibilite TEXT,
 	FOREIGN KEY(categorie) REFERENCES categorie(ref)
 );
 

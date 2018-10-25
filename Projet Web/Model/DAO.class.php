@@ -112,7 +112,7 @@
 		  }
 		  function getArticleDispo() : array {
 
-  			 $req = "SELECT * FROM article WHERE dispo='oui' ";
+  			 $req = "SELECT * FROM article WHERE disponibilite='Oui' ";
 
   			 $res =$this->db->query($req);
   			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
