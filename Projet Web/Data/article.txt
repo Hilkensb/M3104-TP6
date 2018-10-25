@@ -14,17 +14,17 @@
 00000014|G.Skill 16 Go (2x 8Go) DDR4 2400 MHz CL15|Format : DDR4, Frequence : 2400Mhz, Taille totale : 16Go, ECC : Non|150.0|30000002.jpg|03|G.Skill|Plus de RAM
 00000015|Corsair 32 Go (4x 8Go) DDR4 3866 MHz CL18|Format : DDR4, Frequence : 3866Mhz, Taille totale : 32Go, ECC : Non|585.0|30000003.jpg|03|Corsair|Beaucoup de RAM
 00000016|Fujitsu 8 Go (1x 8Go) DDR4 2666 MHz ECC|Format : DDR4, Frequence : 2666Mhz, Taille totale : 8Go, ECC : Oui|200.0|30000004.jpg|03|Fujitsu|De la ram ECC
-00000017|Crucial 4 Go (1x4Go) DDR3 1600 MHz CL11 ECC Registered|Format : DDR3, Frequence : 1600Mhz, Taille totale : 4Go, ECC : Oui|30000005.jpg|65.0|03|Crucial|Plus de ram ECC
-00000018|Kingston 16 Go (2x8Go) DDR3 1600MHz CL11 ECC Registered|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Oui|30000006.jpg|250.0|03|Kingston|Encore plus de ram ECC
-00000018|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|67.0|40000001.jpg|04|Seagate|Bon rapport qualité/prix !
-00000019|Toshiba L200 1To|Capacite : 1To, Taille : 2.5", Vitesse : 5400 RPM, Interface : Serial ATA|60.0|40000002.jpg|04|Toshiba|Petit disque.
-00000020|WD Black 6To|Capacite : 6To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|303.0|40000003.jpg|04|Western Digital|Gros disque !
-00000021|Lenovo Thinkserver 1To|Capacite : 1To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|170.0|40000004.jpg|04|Lenovo|Disque dur de serveur.
-00000022|Fujitsu 1To 3.5"|Capacite : 1To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|270.0|40000005.jpg|04|Fujitsu|Autre disque dur serveur.
-00000023|Seagate IronWolf Pro 14To|Capacite : 14To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|675.0|40000006.jpg|04|Seagate|14To ça fait beaucoup !
-00000024|Kingston A1000 M.2 PCIe NVMe 240Go|Capacite : 240Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|75.0|50000001.jpg|05|Kingston|SSD M.2 NVMe 240Go
-00000025|Corsair Force MP300 960Go|Capacite : 960Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|350.0|50000002.jpg|05|Corsair|SSD M.2 NVMe 960Go
-00000026|Samsung SSD 860 EVO 1To mSATA|Capacite : 1To, Interface : mSATA, Type de memoire : TLC, NVMe : Non|75.0|50000003.jpg|05|Samsung|SSD mSATA 1To
-00000027|SanDisk SSD PLUS SLC 120Go|Capacite : 120Go, Interface : SATA, Type de memoire : SLC, NVMe : Non|32.0|50000004.jpg|05|SanDisk|Petit SSD SLC
-00000028|Kingston DCP1000 3.2To|Capacite : 3.2To, Interface : PCIe, Type de memoire : MLC, NVMe : Oui|3200.0|50000005.jpg|05|Kingston|La ça commence a faire beaucoup...
-00000029|HyperX Fury RGB SSD 960Go|Capacite : 960Go, Interface : SATA, Type de momoire : TLC, NVMe : Non|250.0|50000006.jpg|05|HyperX|On a même des SSD qui brillent !
+00000017|Crucial 4 Go (1x4Go) DDR3 1600 MHz CL11 ECC Registered|Format : DDR3, Frequence : 1600Mhz, Taille totale : 4Go, ECC : Oui|65.0|30000005.jpg|03|Crucial|Plus de ram ECC
+00000018|Kingston 16 Go (2x8Go) DDR3 1600MHz CL11 ECC Registered|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Oui|250.0|30000006.jpg|03|Kingston|Encore plus de ram ECC
+00000019|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|67.0|40000001.jpg|04|Seagate|Bon rapport qualité/prix !
+00000020|Toshiba L200 1To|Capacite : 1To, Taille : 2.5", Vitesse : 5400 RPM, Interface : Serial ATA|60.0|40000002.jpg|04|Toshiba|Petit disque.
+00000021|WD Black 6To|Capacite : 6To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|303.0|40000003.jpg|04|Western Digital|Gros disque !
+00000022|Lenovo Thinkserver 1To|Capacite : 1To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|170.0|40000004.jpg|04|Lenovo|Disque dur de serveur.
+00000023|Fujitsu 1To 3.5"|Capacite : 1To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|270.0|40000005.jpg|04|Fujitsu|Autre disque dur serveur.
+00000024|Seagate IronWolf Pro 14To|Capacite : 14To, Taille : 3.5", Vitesse : 7200RPM, Interface : Serial ATA|675.0|40000006.jpg|04|Seagate|14To ça fait beaucoup !
+00000025|Kingston A1000 M.2 PCIe NVMe 240Go|Capacite : 240Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|75.0|50000001.jpg|05|Kingston|SSD M.2 NVMe 240Go
+00000026|Corsair Force MP300 960Go|Capacite : 960Go, Interface : M.2 PCIe, Type de memoire : TLC, NVMe : Oui|350.0|50000002.jpg|05|Corsair|SSD M.2 NVMe 960Go
+00000027|Samsung SSD 860 EVO 1To mSATA|Capacite : 1To, Interface : mSATA, Type de memoire : TLC, NVMe : Non|75.0|50000003.jpg|05|Samsung|SSD mSATA 1To
+00000028|SanDisk SSD PLUS SLC 120Go|Capacite : 120Go, Interface : SATA, Type de memoire : SLC, NVMe : Non|32.0|50000004.jpg|05|SanDisk|Petit SSD SLC
+00000029|Kingston DCP1000 3.2To|Capacite : 3.2To, Interface : PCIe, Type de memoire : MLC, NVMe : Oui|3200.0|50000005.jpg|05|Kingston|La ça commence a faire beaucoup...
+00000030|HyperX Fury RGB SSD 960Go|Capacite : 960Go, Interface : SATA, Type de momoire : TLC, NVMe : Non|250.0|50000006.jpg|05|HyperX|On a même des SSD qui brillent !
