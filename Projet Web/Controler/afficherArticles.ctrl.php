@@ -6,7 +6,6 @@ include_once("../Controler/variable.ctrl.php");
 
 	 // Partie principale
 
-
 	 echo $_GET['refartc'];
 	 echo !empty($_GET['refartc']);
 
@@ -24,6 +23,7 @@ include_once("../Controler/variable.ctrl.php");
 
    $nbArtc = $dao->nbArticle();
 
+//Page suivante
 	if($nextPage+$nbArticlePage> $nbArtc){
 		$nextPage =$nbArtc -($nbArticlePage-1);
 
@@ -32,10 +32,10 @@ include_once("../Controler/variable.ctrl.php");
 	}
 	echo($nextPage);
 
-
+//Page précédente
 	 if($previousPage-$nbArticlePage > 0){
 			$previousPage=  $articleDeDepart-$nbArticlePage;
-			//$pageActuelle=$pageActuelle--;
+			$pageActuelle=$pageActuelle--;
 		}else {
 			$previousPage=  $articleDeDepart;
 		}
