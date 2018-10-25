@@ -8,7 +8,6 @@
       private $categorie;
       private $marque;
 		private $description;
-		private $date;
 
    function __get(string $property){
       return $this->$property;
