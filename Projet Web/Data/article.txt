@@ -14,8 +14,8 @@
 00000014|G.Skill 16 Go (2x 8Go) DDR4 2400 MHz CL15|Format : DDR4, Frequence : 2400Mhz, Taille totale : 16Go, ECC : Non|150.0|30000002.jpg|03|G.Skill|Plus de RAM
 00000015|Corsair 32 Go (4x 8Go) DDR4 3866 MHz CL18|Format : DDR4, Frequence : 3866Mhz, Taille totale : 32Go, ECC : Non|585.0|30000003.jpg|03|Corsair|Beaucoup de RAM
 00000016|Fujitsu 8 Go (1x 8Go) DDR4 2666 MHz ECC|Format : DDR4, Frequence : 2666Mhz, Taille totale : 8Go, ECC : Oui|200.0|30000004.jpg|03|Fujitsu|De la ram ECC
-00000017|Crucial 4 Go (1x4Go) DDR3 1600 MHz CL11 ECC Registered|Format : DDR3, Frequence : 1600Mhz, Taille totale : 4Go, ECC : Oui|30000005.jpg|65.0|03|Crucial|Plus de ram ECC
-00000018|Kingston 16 Go (2x8Go) DDR3 1600MHz CL11 ECC Registered|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Oui|30000006.jpg|250.0|03|Kingston|Encore plus de ram ECC
+00000017|Crucial 4 Go (1x4Go) DDR3 1600 MHz CL11 ECC Registered|Format : DDR3, Frequence : 1600Mhz, Taille totale : 4Go, ECC : Oui|65.0|30000005.jpg|03|Crucial|Plus de ram ECC
+00000018|Kingston 16 Go (2x8Go) DDR3 1600MHz CL11 ECC Registered|Format : DDR3, Frequence : 1866Mhz, Taille totale : 16Go, ECC : Oui|250.0|30000006.jpg|03|Kingston|Encore plus de ram ECC
 00000018|Seagate BarraCuda 2To|Capacite : 2To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|67.0|40000001.jpg|04|Seagate|Bon rapport qualité/prix !
 00000019|Toshiba L200 1To|Capacite : 1To, Taille : 2.5", Vitesse : 5400 RPM, Interface : Serial ATA|60.0|40000002.jpg|04|Toshiba|Petit disque.
 00000020|WD Black 6To|Capacite : 6To, Taille : 3.5", Vitesse : 7200 RPM, Interface : Serial ATA|303.0|40000003.jpg|04|Western Digital|Gros disque !
