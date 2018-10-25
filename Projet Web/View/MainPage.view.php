@@ -37,8 +37,10 @@
 			  <?php for($i = 0;$i<$nbLigneArticlePage;$i++){ ?>
 			  <ul id="NavArticle">
 				  <?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
-
- 				  <li> <div id="NavArticleDiv"><a  href="../View/articles.view.php?refartc=<?= $article[$j+($i*$nbColonneArtcilePage)]->ref ?>"><img src="../View/Img/<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130"> <p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2></div>
+ 				  <li> <div id="NavArticleDiv"><a  href="../View/articles.view.php?photo=<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>&nom=<?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?>&caracteristique=<?= $article[$j+($i*$nbColonneArtcilePage)]->caracteristique?>
+					  &description=<?= $article[$j+($i*$nbColonneArtcilePage)]->description?>&prix=<?= $article[$j+($i*$nbColonneArtcilePage)]->prix?>">
+					  <img src="../View/Img/<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130"> <p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2>
+				  </div>
  				  <?php } ?>
  			 </ul>
 		 	<?php } ?>
