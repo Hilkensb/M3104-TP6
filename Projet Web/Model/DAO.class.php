@@ -34,6 +34,7 @@
 			$req = "SELECT * FROM article WHERE nom='$nom' COLLATE NOCASE ";
 			$res = $this->db->query($req);
 			$resul = $res->fetchall(PDO::FETCH_CLASS,'article');
+      var_dump($resul);
 			return $resul[0];
 		}
 
