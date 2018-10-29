@@ -27,7 +27,7 @@
 			$req = "SELECT * FROM article WHERE ref=$ref";
 			$res = $this->db->query($req);
 			$resul = $res->fetchall(PDO::FETCH_CLASS,'article');
-			return $resul;
+			return $resul[0];
 		}
 
 		function readRefCategorie(int $ref) : Categorie{
@@ -121,7 +121,7 @@
 
   		}
 		function getArticleDispoRefArticle(int $ref) : array {
-			
+
   			 $req = "SELECT * FROM article WHERE disponibilite='Oui' and ref>=$ref  ";
 
   			 $res =$this->db->query($req);
