@@ -9,7 +9,7 @@
 
 
     if (empty($_GET["refarticle"]) && !empty($_GET["nomArticle"])){
-      $article = $dao->readNomArticle($_GET["refarticle"]);
+      $article = $dao->readNomArticle($_GET["nomArticle"]);
     }else {
       $article =  $dao->readRefArticle(1);
     }
