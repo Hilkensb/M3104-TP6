@@ -31,7 +31,7 @@
 		}
 
     function readNomArticle(string $nom) : Article{
-			$req = "SELECT * FROM article WHERE nom='$nom'";
+			$req = "SELECT * FROM article WHERE nom='$nom' COLLATE NOCASE ";
 			$res = $this->db->query($req);
 			$resul = $res->fetchall(PDO::FETCH_CLASS,'article');
 			return $resul[0];
