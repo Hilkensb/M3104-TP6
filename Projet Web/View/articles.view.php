@@ -14,24 +14,24 @@
 		<nav>
 		  <ul id="Navhaut">
 			 <li></li>
-			
+
 		  </ul>
 		</nav>
 
 		<div id="mainArticle">
 			<div id = "Description">
 				<div>
-		        <img src="../View/Img/<?= $aPhoto?>"/ width= "300" height="300">
+		        <img src="../View/Img/<?= $article->photo ?>"/ width= "300" height="300">
 	      	</div>
 				<div class="">
-					<h1>Nom du produit : <?= $aNom?></h1>
-					<p>Description du produit : <?= $aDescription?></p>
-					<h1 id= prix>Prix : <?= $aPrix?>€</h1>
+					<h1>Nom du produit : <?= $article->nom?></h1>
+					<p>Description du produit : <?= $article->description?></p>
+					<h1 id= prix>Prix : <?= $article->prix?>€</h1>
 				</div>
-         <p> Disponible dans nos magasin : <?= $aDisponibilite ?> </p>
+         <p> Disponible dans nos magasin : <?= $article->disponibilite ?> </p>
 			</div>
 			<div id = FicheTeck>
-				<p>Information technique : <br> <?= $aCaracteristique?></p>
+				<p>Information technique : <br> <?= $article->caracteristique?></p>
 			</div>
 		</div>
 
