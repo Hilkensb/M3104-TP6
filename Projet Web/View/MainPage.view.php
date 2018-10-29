@@ -14,7 +14,10 @@
 		 <ul id="Navhaut">
 
 			<li><a href="#">hj</a></li>
-			<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+			<li><form action="../Controler/pageArticle.php" method="GET">
+<input id="search" type="text" placeholder="Type here">
+<input id="submit" type="submit" value="Search">
+</form></li>
 			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">Disponibilité</a></li>
 		 </ul>
 	  </nav>
