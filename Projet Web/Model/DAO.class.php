@@ -27,7 +27,6 @@
 			$req = "SELECT * FROM article WHERE ref=$ref";
 			$res = $this->db->query($req);
 			$resul = $res->fetchall(PDO::FETCH_CLASS,'article');
-      var_dump($resul);
 			return $resul[0];
 		}
 
