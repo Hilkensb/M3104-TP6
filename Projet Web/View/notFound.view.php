@@ -20,7 +20,7 @@
 
 		<div id="mainArticle">
 			
-					<h1>Erreur , l'article que vous cherchez n'éxiste pas</h1>
+					<h2>Erreur , l'article que vous cherchez n'éxiste pas</h2>
 
       </div>
 

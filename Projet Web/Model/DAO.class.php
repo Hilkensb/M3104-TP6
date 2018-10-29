@@ -33,11 +33,11 @@
     function readNomArticle(string $nom) : Article{
 			$req = "SELECT * FROM article WHERE nom='$nom' COLLATE NOCASE ";
 			$res = $this->db->query($req);
-			$resul = $res->fetchall(PDO::FETCH_CLASS,'article')[0];
+			$resul = $res->fetchall(PDO::FETCH_CLASS,'article');
       if (empty($resul) ){
         throw new Exception();
       }
-			return $resul;
+			return $resul[0];
 		}
 
 		function readRefCategorie(int $ref) : Categorie{
