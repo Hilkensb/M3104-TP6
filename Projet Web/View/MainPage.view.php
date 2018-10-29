@@ -14,7 +14,7 @@
 		 <ul id="Navhaut">
 
 			<li><a href="#">hj</a></li>
-			<li><form action="../Controler/pageArticle.php" method="GET">
+			<li><form action="../Controler/pageArticle.ctrl.php" method="GET">
 <input id="search" type="text" placeholder="Type here">
 <input id="submit" type="submit" value="Search">
 </form></li>
