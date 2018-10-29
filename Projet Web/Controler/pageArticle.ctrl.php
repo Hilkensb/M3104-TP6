@@ -13,7 +13,7 @@
     if (empty($_GET["refarticle"]) && !empty($_GET["nomArticle"])){
       try{
         $article = $dao->readNomArticle($_GET["nomArticle"]);
-      }catch(OutOfRangeException  $e){
+      }catch(Exception  $e){
         include_once("../View/notFound.view.php");
         $bool = FALSE;
       }
