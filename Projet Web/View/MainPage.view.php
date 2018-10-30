@@ -15,7 +15,7 @@
 
 			<li><a href="#">hj</a></li>
 			<li><form action="../Controler/pageArticle.ctrl.php" method="GET">
-          <input id="search"  name="nomArticle" type="text" placeholder="Nom d'un article">
+          <input required  id="search"  name="nomArticle" type="text" placeholder="Nom d'un article">
           <input id="submit" type="submit" value="Recherche">
 </form></li>
 			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">Disponibilité</a></li>
