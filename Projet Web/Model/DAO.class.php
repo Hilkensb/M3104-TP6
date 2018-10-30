@@ -77,63 +77,27 @@
 
 		}
 
-		// Acces à la référence qui suit la référence $ref dans l'ordre des références
-        function next(int $ref) : int {
-            ///////////////////////////////////////////////////////
-            //  A COMPLETER
-            ///////////////////////////////////////////////
-            $req = "SELECT * FROM article WHERE ref>=$ref ORDER BY ref ASC LIMIT 1 ";
 
-      			$res =$this->db->query($req);
-            $resul =$res->fetchall(PDO::FETCH_CLASS,'article');
-				return $resul[0]->ref;
-        }
-
-        // Acces aux n articles qui précèdent de $n la référence $ref dans l'ordre des références
-        function prevN(int $ref,int $n): array {
-            ///////////////////////////////////////////////////////
-            //  A COMPLETER
-            ///////////////////////////////////////////////
-            $req = "SELECT * FROM article WHERE ref<$ref ORDER BY ref DESC LIMIT $n ";
-
-      			$res =$this->db->query($req);
-            $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
-            return array_reverse($resul);
-        }
-		  function nbArticle(): int {
-			   ///////////////////////////////////////////////////////
-			   //  A COMPLETER
-			   ///////////////////////////////////////////////
-			   $req = "SELECT count(ref) as nbarticle FROM article";
-
-				  $res =$this->db->query($req);
-			   $resul =$res ->fetchall(PDO::FETCH_ASSOC)[0];
-			   return (int) $resul['nbarticle'];
+	  function nbArticle(): int {
+			 $req = "SELECT count(ref) as nbarticle FROM article";
+			 $res =$this->db->query($req);
+			 $resul =$res ->fetchall(PDO::FETCH_ASSOC)[0];
+			  return (int) $resul['nbarticle'];
 		  }
 		  function nbCategorie(): int {
-			   ///////////////////////////////////////////////////////
-			   //  A COMPLETER
-			   ///////////////////////////////////////////////
 			   $req = "SELECT count(ref) as nbcategorie FROM categorie";
-
-				  $res =$this->db->query($req);
+				 $res =$this->db->query($req);
 			   $resul =$res ->fetchall(PDO::FETCH_ASSOC)[0];
 			   return (int) $resul['nbcategorie'];
 		  }
 		  function getArticleDispo() : array {
-
   			 $req = "SELECT * FROM article WHERE disponibilite='Oui' ";
-
   			 $res =$this->db->query($req);
   			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
   			 return $resul;
-
-
   		}
 		function getArticleDispoRefArticle(int $ref) : array {
-
   			 $req = "SELECT * FROM article WHERE disponibilite='Oui' and ref>=$ref  ";
-
   			 $res =$this->db->query($req);
   			 $resul =$res ->fetchall(PDO::FETCH_CLASS,'article');
   			 return $resul;
