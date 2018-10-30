@@ -4,6 +4,7 @@
 
 	 $nbArticlePage = $nbColonneArtcilePage*$nbLigneArticlePage;
 	 $articleDeDepart = 1;
+   $premierArticleDeLaMainPage =$articleDeDepart;
 	 $nbCategorie = 5;
 	 $pageActuelle=1;
 	 $nextPage = $articleDeDepart+$nbArticlePage;
