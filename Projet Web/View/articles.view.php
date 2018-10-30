@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<header>
-   <a  href="../Controler/afficherArticles.ctrl.php?refartc=<?= $articleDeDepart ?>&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
+   <a  href="../Controler/afficherArticles.ctrl.php?refartc=01&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
 
 		  	<h1>"IL Est Increvable"</h1>
 		</header>

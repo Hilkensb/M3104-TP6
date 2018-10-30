@@ -100,5 +100,3 @@ include_once("../Controler/variable.ctrl.php");
    // Charge la vue
    include("../View/MainPage.view.php");
    ?>
-nbColonneArtcilePage
-nbColonneArtcilePage
