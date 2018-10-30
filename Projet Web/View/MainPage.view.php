@@ -7,7 +7,7 @@
   </head>
   <body>
 	  <header>
-		 <a  href="?refartc=1&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
+		 <a  href="?refartc=<?= $nbArticlePage?>&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
 		  <h1>"Vente de matériel informatique"</h1>
 	  </header>
 	  <nav>

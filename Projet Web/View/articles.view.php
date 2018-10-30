@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<header>
-   <a  href="../Controler/afficherArticles.ctrl.php?refartc=01&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
+   <a  href="../Controler/afficherArticles.ctrl.php?refartc=<?= $nbArticlePage?>&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
 
 		  	<h1>"IL Est Increvable"</h1>
 		</header>
@@ -30,6 +30,9 @@
 				</div>
          <p> Disponible dans nos magasin : <?= $article->disponibilite ?> </p>
 			</div>
+		</div>
+		 <p> Adresse du magasin vendant ce type de produit : <?= $article->pointdevente ?> </p>
+	</div>
 			<div id = FicheTeck>
 				<p>Information technique : <br> <?= $article->caracteristique?></p>
 			</div>
