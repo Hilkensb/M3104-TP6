@@ -5,8 +5,6 @@
     $bool = TRUE;
 		if (!empty($_GET["refarticle"]) && empty($_GET["nomArticle"])){
 			$article = $dao->readRefArticle($_GET["refarticle"]);
-		}else {
-			$article =  $dao->readRefArticle(1);
 		}
 
 
@@ -17,9 +15,7 @@
         include_once("../View/notFound.view.php");
         $bool = FALSE;
       }
-    }else {
-      $article =  $dao->readRefArticle(1);
-    }
+    
     if ($bool){
         include_once("../View/articles.view.php");
     }else{
