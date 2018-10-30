@@ -15,7 +15,7 @@
         include_once("../View/notFound.view.php");
         $bool = FALSE;
       }
-    
+    }
     if ($bool){
         include_once("../View/articles.view.php");
     }else{
