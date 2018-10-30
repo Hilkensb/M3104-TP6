@@ -50,10 +50,11 @@
 		 	<?php } ?>
 
 			<?php if ($nbColonneArtcilePageLF !=0): ?>
-				<?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
+				<?php for($j = 0;$j<$nbColonneArtcilePageLF;$j++){ ?>
 					<ul id="NavArticle">
 						<li> <div id="NavArticleDiv"><a href="../Controler/pageArticle.ctrl.php?refarticle=<?= $article[$j+($i*$nbColonneArtcilePage)]->ref ?> ">
 	 				  	<img src="../View/Img/<?= $article[$j+($nbLigneArticlePage*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130">
+						<p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2></a></div>
 	  			 	</ul>
 				<?php } ?>
 			<?php endif; ?>

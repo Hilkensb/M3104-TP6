@@ -73,15 +73,20 @@ include_once("../Controler/variable.ctrl.php");
 
 //Page suivante
 		$nextPage = $articleDeDepart+$nbArticlePage;
-		$articleDeDepart = $nextPage;
 		echo($nextPage);
 
 
 //Page précédente
 	 if($previousPage-$nbArticlePage > 0){
+		 	echo ($previousPage."previousPage");
+		 	echo ($articleDeDepart."articleDeDepart");
+		 	echo ($nbArticlePage."nbArticlePage");
 			$previousPage= $articleDeDepart-$nbArticlePage;
 			$pageActuelle=$pageActuelle--;
 		}else {
+			echo ($previousPage."previousPage");
+			echo ($articleDeDepart."articleDeDepart");
+			echo ($nbArticlePage."nbArticlePage 2");
 			$previousPage=  $articleDeDepart;
 			$articleDeDepart = $previousPage;
 		}
