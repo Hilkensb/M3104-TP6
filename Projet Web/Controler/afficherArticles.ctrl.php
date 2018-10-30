@@ -13,7 +13,7 @@ include_once("../Controler/variable.ctrl.php");
 	echo $nbCat;
 	echo $nbCategorie;
  $diff =$nbCat-$nbCategorie;
-  
+
 	if (!empty($_GET['refcat'])){
 		$categorie = $dao->getNCateg(01/*$_GET['refcat']*/,$nbCategorie);
 		$refcategorie=$_GET['refcat'];
@@ -51,42 +51,51 @@ include_once("../Controler/variable.ctrl.php");
 	var_dump($article);
 	echo "count".count($article)."couf";
 	if (count($article)<$nbArticlePage){
-		if ((count($article)-1)%4==0){
-			$nbLigneArticlePage = $nbLigneArticlePage;
-		}else {
-		$nbLigneArticlePage =floor(count($article)/4);//round($nbArticlePage/($nbArticlePage-count($article)));
-		}
-		if ((count($article)-1)%5==0){
-			$nbColonneArtcilePage = $nbColonneArtcilePage;
-		}else {
-			$nbColonneArtcilePage =(count($article)%5);
-		}
-	//	 =round($nbArticlePage/$nbLigneArticlePage);
+		$nbLigneArticlePage = floor(count($article)/5);
+		$nbColonneArtcilePageLF = (count($article)%5);
 	}else {
 		$nbLigneArticlePage = 4;
 		$nbColonneArtcilePage = 5;
-	}	
+	}
+	echo $nbArtc."nbArtc \n";
+	echo $nbArticlePage."nbArticlePage \n";
+	echo $nbLigneArticlePage."ligne \n";
+	echo $nbColonneArtcilePage."colonne \n";
+	var_dump($article);
+	$nbColonneArtcilePage = 5;
+	echo "count".count($article)."couf";
+	$nbLigneArticlePage = floor(count($article)/5);
+	$nbColonneArtcilePageLF = (count($article)%5);
+
 	echo $nbLigneArticlePage."ligne";
-		echo $nbColonneArtcilePage."colonne";
+	echo $nbColonneArtcilePageLF."colonne sur ligne finale";
 
 
 //Page suivante
-	if($nextPage+$nbArticlePage> $nbArtc){
-		$nextPage =$nbArtc -($nbArticlePage-1);
+		$nextPage = $articleDeDepart+$nbArticlePage;
+		$articleDeDepart = $nextPage;
+		echo($nextPage);
 
-	}else{
-		$nextPage=  $articleDeDepart+$nbArticlePage;
-		$articleDeDepart = $nextpage;	}
-	echo($nextPage);
 
 //Page précédente
 	 if($previousPage-$nbArticlePage > 0){
-			$previousPage=  $articleDeDepart-$nbArticlePage;
+			$previousPage= $articleDeDepart-$nbArticlePage;
 			$pageActuelle=$pageActuelle--;
 		}else {
 			$previousPage=  $articleDeDepart;
 			$articleDeDepart = $previousPage;
 		}
+		// function nextPageFunct($pageActuelle){
+		// 	return $pageActuelle++;
+		// }
+		// function previousPageFunct($pageActuelle){
+		// 	if($previousPage-$nbArticlePage > 0){
+		// 	return $pageActuelle--;
+		// 	}
+		// 	else {
+		// 		return $pageActuelle;
+		// 	}
+		// }
 
    // Charge la vue
    include("../View/MainPage.view.php");

@@ -49,16 +49,26 @@
  			 </ul>
 		 	<?php } ?>
 
+			<?php if ($nbColonneArtcilePageLF !=0): ?>
+				<?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
+					<ul id="NavArticle">
+						<li> <div id="NavArticleDiv"><a href="../Controler/pageArticle.ctrl.php?refarticle=<?= $article[$j+($i*$nbColonneArtcilePage)]->ref ?> ">
+	 				  	<img src="../View/Img/<?= $article[$j+($nbLigneArticlePage*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130">
+	  			 	</ul>
+				<?php } ?>
+			<?php endif; ?>
+
+
 		  </nav>
 		</div>
 
 	  <footer>
 		  <nav>
 			 <ul id="NavBas">
-
-			   <li><a href="?refartc=<?= $previousPage ?>&refcat=<?= $refcategorie?>&dispo=<?= $dispo ?>"><?php $pageActuelle=$pageActuelle-1; ?><</a></li>
-				<li><?=  $pageActuelle// $pageActuelle= (int)(($_GET(['refartc'])+($nbArticlePage/2))/$nbArticlePage) ?></li>
-			   <li><a href="?refartc=<?= $nextPage ?>&refcat=<?= $refcategorie?>&dispo=<?= $dispo ?>"><?php $pageActuelle=$pageActuelle+1; ?>></a></li>
+				 <?php echo $pageActuelle; ?>
+			   <li><a href="?refartc=<?= $previousPage ?>&refcat=<?= $refcategorie?>&dispo=<?= $dispo ?>"><?php $pageActuelle-- ?><</a></li>
+				<li><?=  $pageActuelle;// $pageActuelle= (int)(($_GET(['refartc'])+($nbArticlePage/2))/$nbArticlePage) ?></li>
+			   <li><a href="?refartc=<?= $nextPage ?>&refcat=<?= $refcategorie?>&dispo=<?= $dispo ?>"><?php $pageActuelle++ ?>></a></li>
 			 </ul>
 		  </nav>
 	  </footer>
