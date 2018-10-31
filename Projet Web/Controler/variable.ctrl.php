@@ -1,4 +1,5 @@
   <?php
+  //variable utiliser par la suite , simplifie l'étape de debug et ainsi évite de chercher les variable dans tous le code
 	 $nbLigneArticlePage = 4;
 	 $nbColonneArtcilePage = 5;
 

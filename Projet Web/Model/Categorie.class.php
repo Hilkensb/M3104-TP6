@@ -1,11 +1,11 @@
 <?php
-  class Categorie {
+class Categorie {
     private $ref;
     private $nom;
-	 private $photo;
+	  private $photo;
 
 	 function __get(string $property){
 		 return $this->$property;
 	 }
-  }
+}
 ?>

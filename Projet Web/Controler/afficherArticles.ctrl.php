@@ -1,7 +1,8 @@
 <?php
-include_once("../Controler/variable.ctrl.php");
 
-    // Inclusion du modèle
+
+    // Inclusion du modèle et des variable
+    include_once("../Controler/variable.ctrl.php");
     include_once("../Model/DAO.class.php");
 
 	 // Partie principale
@@ -9,25 +10,19 @@ include_once("../Controler/variable.ctrl.php");
 	 $nbArtc = $dao->nbArticle();
 	 $nbCat = $dao->nbCategorie();
 	 $artcileDispo = $dao->getArticleDispo();
-	// echo !empty($_GET['refartc']);
-	echo $nbCat;
-	echo $nbCategorie;
- $diff =$nbCat-$nbCategorie;
 
 	if (!empty($_GET['refcat'])){
-		$categorie = $dao->getNCateg(01/*$_GET['refcat']*/,$nbCategorie);
+		$categorie = $dao->getNCateg(01,$nbCategorie);
 		$refcategorie=$_GET['refcat'];
 	}else {
 		$categorie = $dao->getNCateg(01,$nbCategorie);
-		var_dump($categorie);
 		$refcategorie= "";
 	}
+
 	if(!empty($_GET['refartc'])&& empty($_GET['refcat'])&& empty($_GET['dispo']) ){
 	  $article = $dao->getNArticle($_GET['refartc'],$nbArticlePage);
 	  $refarticle=$_GET['refartc'];
 	  $dispo = "";
-
-	  var_dump($article);
 	}else if(!empty($_GET['refartc'])&& !empty($_GET['refcat'])&& empty($_GET['dispo'])){
 	  $article =$dao->getArticleCate($_GET['refcat']);
 	  $refarticle=$_GET['refartc'];
@@ -48,6 +43,7 @@ include_once("../Controler/variable.ctrl.php");
 	  $refarticle=$articleDeDepart;
 	  $dispo = "";
 	}
+  var_dump($categorie);
 	var_dump($article);
 	echo "count".count($article)."couf";
 	if (count($article)<$nbArticlePage){
@@ -102,6 +98,6 @@ include_once("../Controler/variable.ctrl.php");
 		// 	}
 		// }
 
-   // Charge la vue
+   // Charge la vue de la page principal
    include("../View/MainPage.view.php");
    ?>

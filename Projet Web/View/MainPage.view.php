@@ -8,23 +8,22 @@
   <body>
 	  <header>
 		 <a  href="?refartc=<?= $premierArticleDeLaMainPage?>&dispo="" "> <img id="Headerimg1" src="../View/Img/Logo.jpg"/ width="100" height="100"></a>
-		  <h1>"Vente de matériel informatique"</h1>
+		  <h1>Vente de matériel informatique</h1>
 	  </header>
 	  <nav>
 		 <ul id="Navhaut">
-
-			<li><a href="#">hj</a></li>
-			<li><form action="../Controler/pageArticle.ctrl.php" method="GET">
+			<li>
+        <form action="../Controler/pageArticle.ctrl.php" method="GET">
           <input required  id="search"  name="nomArticle" type="text" placeholder="Nom d'un article">
           <input id="submit" type="submit" value="Recherche">
-</form></li>
+        </form>
+      </li>
 			<li><a href="?dispo=oui&refartc=<?= $articleDeDepart ?>">Disponibilité</a></li>
 		 </ul>
 	  </nav>
 
 	  <div>
 		  <nav>
-
 			 <ul id="NavArticle">
 				 <?php for($i = 0;$i<$nbCategorie;$i++){ ?>
 				  <li><a  href="?refcat=<?= $categorie[$i]->ref ?>&refartc=<?= $refarticle ?>"> <img src="../View/Img/<?= $categorie[$i]->photo ?>"/ width= "130" height="130"></a> </li>
