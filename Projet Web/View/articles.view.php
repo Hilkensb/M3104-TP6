@@ -27,12 +27,13 @@
 					<h1>Nom du produit : <?= $article->nom?></h1>
 					<p>Description du produit : <?= $article->description?></p>
 					<h1 id= prix>Prix : <?= $article->prix?>€</h1>
+					<p> Adresse du magasin vendant ce type de produit : <?= $article->pointdevente?> </p>
 				</div>
          <p> Disponible dans nos magasin : <?= $article->disponibilite ?> </p>
 			</div>
 		</div>
-		 <p> Adresse du magasin vendant ce type de produit : <?= $article->pointdevente ?> </p>
-	</div>
+
+		</div>
 			<div id = FicheTeck>
 				<p>Information technique : <br> <?= $article->caracteristique?></p>
 			</div>
