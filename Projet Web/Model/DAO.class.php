@@ -1,5 +1,5 @@
  <?php
-     require_once("../Model/Article.class.php");
+ require_once("../Model/Article.class.php");
  require_once("../Model/Categorie.class.php");
 
  // Creation de l'unique objet DAO
