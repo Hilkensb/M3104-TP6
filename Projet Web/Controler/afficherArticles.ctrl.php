@@ -43,9 +43,8 @@
 	  $refarticle=$articleDeDepart;
 	  $dispo = "";
 	}
-  var_dump($categorie);
-	var_dump($article);
-	echo "count".count($article)."couf";
+
+
 	if (count($article)<$nbArticlePage){
 		$nbLigneArticlePage = floor(count($article)/5);
 		$nbColonneArtcilePageLF = (count($article)%5);
@@ -53,50 +52,21 @@
 		$nbLigneArticlePage = 4;
 		$nbColonneArtcilePage = 5;
 	}
-	echo $nbArtc."nbArtc \n";
-	echo $nbArticlePage."nbArticlePage \n";
-	echo $nbLigneArticlePage."ligne \n";
-	echo $nbColonneArtcilePage."colonne \n";
-	var_dump($article);
 	$nbColonneArtcilePage = 5;
-	echo "count".count($article)."couf";
 	$nbLigneArticlePage = floor(count($article)/5);
 	$nbColonneArtcilePageLF = (count($article)%5);
 
-	echo $nbLigneArticlePage."ligne";
-	echo $nbColonneArtcilePageLF."colonne sur ligne finale";
-
-
 //Page suivante
 		$nextPage = $articleDeDepart+$nbArticlePage;
-		echo($nextPage);
-
 
 //Page précédente
 	 if($previousPage-$nbArticlePage > 0){
-		 	echo ($previousPage."previousPage");
-		 	echo ($articleDeDepart."articleDeDepart");
-		 	echo ($nbArticlePage."nbArticlePage");
 			$previousPage= $articleDeDepart-$nbArticlePage;
 			$pageActuelle=$pageActuelle--;
 		}else {
-			echo ($previousPage."previousPage");
-			echo ($articleDeDepart."articleDeDepart");
-			echo ($nbArticlePage."nbArticlePage 2");
 			$previousPage=  $articleDeDepart;
 			$articleDeDepart = $previousPage;
 		}
-		// function nextPageFunct($pageActuelle){
-		// 	return $pageActuelle++;
-		// }
-		// function previousPageFunct($pageActuelle){
-		// 	if($previousPage-$nbArticlePage > 0){
-		// 	return $pageActuelle--;
-		// 	}
-		// 	else {
-		// 		return $pageActuelle;
-		// 	}
-		// }
 
    // Charge la vue de la page principal
    include("../View/MainPage.view.php");
