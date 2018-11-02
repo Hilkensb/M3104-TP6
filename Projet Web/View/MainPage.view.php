@@ -34,20 +34,17 @@
 	  <div>
 		  <img src="../View/Img/LogoProto0000.jpg"/ width= 100% height="300">
 		</div>
-
 	  <div>
 		  <nav>
 			  <?php for($i = 0;$i<$nbLigneArticlePage;$i++){ ?>
 			  <ul id="NavArticle">
 				  <?php for($j = 0;$j<$nbColonneArtcilePage;$j++){ ?>
-
  				  <li> <div id="NavArticleDiv"><a href="../Controler/pageArticle.ctrl.php?refarticle=<?= $article[$j+($i*$nbColonneArtcilePage)]->ref ?> ">
 				  <img src="../View/Img/<?= $article[$j+($i*$nbColonneArtcilePage)]->photo ?>"/ width= "130" height="130">
 				  <p><?= $article[$j+($i*$nbColonneArtcilePage)]->nom ?></p> <h2><?= $article[$j+($i*$nbColonneArtcilePage)]->prix ?></h2></a></div>
  				  <?php } ?>
  			 </ul>
 		 	<?php } ?>
-
 			<?php if ($nbColonneArtcilePageLF !=0): ?>
 				<?php for($j = 0;$j<$nbColonneArtcilePageLF;$j++){ ?>
 					<ul id="NavArticle">
@@ -57,11 +54,8 @@
 	  			 	</ul>
 				<?php } ?>
 			<?php endif; ?>
-
-
 		  </nav>
 		</div>
-
 	  <footer>
 		  <nav>
 			 <ul id="NavBas">
@@ -71,6 +65,5 @@
 			 </ul>
 		  </nav>
 	  </footer>
-
   </body>
 </html>

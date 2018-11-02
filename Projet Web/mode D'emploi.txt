@@ -1,0 +1,11 @@
+Guide d'utilisation:
+			Tout dabord ,il faut déplacer le fichier projet vers le répertoire définie par le serveur apache pour interpréter le PHP. 
+			Une fois firefox ouvert ,il vous faut rentrer l'adresse du dossier Projet Web située dans M3104-TP6 , un index.php à était créer pour redirigéer vers le php du controleur.
+			Si cela ne marche pas , il vous faut alors ouvrir afficherArticles.ctrl.php située dans M3104-TP6\Projet Web\Controler ou utiliser l'URL vers la dernière version.
+			La page qui s'affiche est la page principale du site web ( vendent du matériel informatique),elle propose des produits cliquable qui renvoie vers un autre page détaillant le produits.
+			Pour revenir vers la page principale à tout moment,il suffit de cliquer sur l'image en à gauche qui est en vert ( image d'un animale avec un fond vert foncer).
+			Il est également possible de naviguer entre les diverse page à l'aide des fléche de navigation en bas de page.
+			Il est possible de trier les produits par catégorie en cliquant sur  l'image la représentant (image en noire).
+			La barre de recherche permet rechercher un produit par son nom ( les majuscules et minuscules n'influe par sur la recherche).
+			A coter de cette bare de recherche , un text cliquable nomé disponibilité redirige sur une page contenant uniquement les article disponible.
+			
