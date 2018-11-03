@@ -47,7 +47,7 @@
 
 	if (count($article)<$nbArticlePage){
 		$nbLigneArticlePage = floor(count($article)/5);
-		$nbColonneArtcilePageLF = (count($article)%5);
+		$nbColonneArtcilePageLF = (count($article)%5); //LF = ligne finale
 	}else {
 		$nbLigneArticlePage = 4;
 		$nbColonneArtcilePage = 5;
